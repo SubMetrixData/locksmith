@@ -1,0 +1,712 @@
+{
+ "generated": "2026-11-06 16:56",
+ "snapshots": 11422,
+ "graded_games": 7,
+ "pending": 241,
+ "standard": "Each game is scored at its last look before the start that has a market number: the number Locksmith showed against the market's number from the same moment (average miss in points; log loss for win chances). t is clustered by game date. 'same_number' counts games where the app showed the market's own number, a tie by construction.",
+ "vs_market": {
+  "cfb": {
+   "margin": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 2,
+     "locksmith": 27.02,
+     "market": 27.0,
+     "gain": -0.02,
+     "t": null,
+     "closer": 1,
+     "market_closer": 1,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "total": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 2,
+     "locksmith": 17.99,
+     "market": 19.0,
+     "gain": 1.01,
+     "t": null,
+     "closer": 2,
+     "market_closer": 0,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "win": {
+    "current": {
+     "metric": "log loss",
+     "n": 2,
+     "locksmith": 0.6392,
+     "market": 0.6372,
+     "gain": -0.002,
+     "t": null,
+     "closer": 1,
+     "market_closer": 1,
+     "same_number": 1,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   }
+  },
+  "nba": {
+   "margin": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 2,
+     "locksmith": 12.27,
+     "market": 12.0,
+     "gain": -0.27,
+     "t": null,
+     "closer": 0,
+     "market_closer": 2,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "total": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 2,
+     "locksmith": 7.235,
+     "market": 6.5,
+     "gain": -0.735,
+     "t": null,
+     "closer": 0,
+     "market_closer": 2,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "win": {
+    "current": {
+     "metric": "log loss",
+     "n": 2,
+     "locksmith": 0.5151,
+     "market": 0.5151,
+     "gain": 0.0,
+     "t": null,
+     "closer": 0,
+     "market_closer": 0,
+     "same_number": 2,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   }
+  },
+  "nfl": {
+   "margin": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 1,
+     "locksmith": 13.05,
+     "market": 13.0,
+     "gain": -0.05,
+     "t": null,
+     "closer": 0,
+     "market_closer": 1,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "total": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 1,
+     "locksmith": 2.94,
+     "market": 3.5,
+     "gain": 0.56,
+     "t": null,
+     "closer": 1,
+     "market_closer": 0,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "win": {
+    "current": {
+     "metric": "log loss",
+     "n": 1,
+     "locksmith": 0.2078,
+     "market": 0.2076,
+     "gain": -0.0002,
+     "t": null,
+     "closer": 0,
+     "market_closer": 1,
+     "same_number": 1,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   }
+  },
+  "nhl": {
+   "total": {
+    "current": {
+     "metric": "average miss (points)",
+     "n": 2,
+     "locksmith": 1.99,
+     "market": 2.0,
+     "gain": 0.01,
+     "t": null,
+     "closer": 1,
+     "market_closer": 1,
+     "same_number": 0,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   },
+   "win": {
+    "current": {
+     "metric": "log loss",
+     "n": 2,
+     "locksmith": 1.0248,
+     "market": 1.0248,
+     "gain": 0.0,
+     "t": null,
+     "closer": 0,
+     "market_closer": 0,
+     "same_number": 2,
+     "verdict": "too_few"
+    },
+    "open": null,
+    "open_source": "us_book",
+    "open_by_source": {}
+   }
+  }
+ },
+ "sports": {
+  "cfb": {
+   "last_look": {
+    "games": 2,
+    "margin": {
+     "n": 2,
+     "miss_locksmith": 27.02,
+     "miss_market": 27.0,
+     "closer": 1,
+     "market_closer": 1,
+     "ties": 0
+    },
+    "total": {
+     "n": 2,
+     "miss_locksmith": 17.99,
+     "miss_market": 19.0,
+     "closer": 2,
+     "market_closer": 0,
+     "ties": 0
+    }
+   },
+   "first_look": {
+    "games": 2,
+    "margin": {
+     "n": 2,
+     "miss_locksmith": 27.02,
+     "miss_market": 27.0,
+     "closer": 1,
+     "market_closer": 1,
+     "ties": 0
+    },
+    "total": {
+     "n": 2,
+     "miss_locksmith": 17.99,
+     "miss_market": 19.0,
+     "closer": 2,
+     "market_closer": 0,
+     "ties": 0
+    }
+   },
+   "day_before_or_earlier": null,
+   "reliability": [
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1,
+     "promised": 0.663,
+     "won": 0.0
+    },
+    {
+     "lo": 0.8,
+     "hi": 1.0,
+     "n": 1,
+     "promised": 0.825,
+     "won": 1.0
+    }
+   ],
+   "vs_market": {
+    "margin": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 2,
+      "locksmith": 27.02,
+      "market": 27.0,
+      "gain": -0.02,
+      "t": null,
+      "closer": 1,
+      "market_closer": 1,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "total": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 2,
+      "locksmith": 17.99,
+      "market": 19.0,
+      "gain": 1.01,
+      "t": null,
+      "closer": 2,
+      "market_closer": 0,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "win": {
+     "current": {
+      "metric": "log loss",
+      "n": 2,
+      "locksmith": 0.6392,
+      "market": 0.6372,
+      "gain": -0.002,
+      "t": null,
+      "closer": 1,
+      "market_closer": 1,
+      "same_number": 1,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    }
+   },
+   "games": [
+    {
+     "game_id": "401869964",
+     "home": "USM",
+     "away": "JMU",
+     "start": "2026-11-06T01:00:00+00:00",
+     "hours": 0.29,
+     "lk_margin": -14.6,
+     "mk_margin": -14.5,
+     "y_margin": -31.0,
+     "lk_total": 56.9,
+     "mk_total": 55.5,
+     "y_total": 77.0,
+     "shown_p": 0.175,
+     "mk_p": 0.181
+    },
+    {
+     "game_id": "401862817",
+     "home": "FAU",
+     "away": "UTSA",
+     "start": "2026-11-06T00:30:00+00:00",
+     "hours": 0.02,
+     "lk_margin": -6.6,
+     "mk_margin": -6.5,
+     "y_margin": 31.0,
+     "lk_total": 73.1,
+     "mk_total": 72.5,
+     "y_total": 89.0,
+     "shown_p": 0.337,
+     "mk_p": 0.341
+    }
+   ]
+  },
+  "nba": {
+   "last_look": {
+    "games": 2,
+    "margin": {
+     "n": 2,
+     "miss_locksmith": 12.27,
+     "miss_market": 12.0,
+     "closer": 0,
+     "market_closer": 2,
+     "ties": 0
+    },
+    "total": {
+     "n": 2,
+     "miss_locksmith": 7.235,
+     "miss_market": 6.5,
+     "closer": 0,
+     "market_closer": 2,
+     "ties": 0
+    }
+   },
+   "first_look": {
+    "games": 2,
+    "margin": {
+     "n": 2,
+     "miss_locksmith": 12.27,
+     "miss_market": 12.0,
+     "closer": 0,
+     "market_closer": 2,
+     "ties": 0
+    },
+    "total": {
+     "n": 2,
+     "miss_locksmith": 7.235,
+     "miss_market": 6.5,
+     "closer": 0,
+     "market_closer": 2,
+     "ties": 0
+    }
+   },
+   "day_before_or_earlier": null,
+   "reliability": [
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1,
+     "promised": 0.51,
+     "won": 1.0
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 1,
+     "promised": 0.7,
+     "won": 1.0
+    }
+   ],
+   "vs_market": {
+    "margin": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 2,
+      "locksmith": 12.27,
+      "market": 12.0,
+      "gain": -0.27,
+      "t": null,
+      "closer": 0,
+      "market_closer": 2,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "total": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 2,
+      "locksmith": 7.235,
+      "market": 6.5,
+      "gain": -0.735,
+      "t": null,
+      "closer": 0,
+      "market_closer": 2,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "win": {
+     "current": {
+      "metric": "log loss",
+      "n": 2,
+      "locksmith": 0.5151,
+      "market": 0.5151,
+      "gain": 0.0,
+      "t": null,
+      "closer": 0,
+      "market_closer": 0,
+      "same_number": 2,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    }
+   },
+   "games": [
+    {
+     "game_id": "401909937",
+     "home": "GS",
+     "away": "MIA",
+     "start": "2026-11-06T03:00:00+00:00",
+     "hours": 2.29,
+     "lk_margin": 7.0,
+     "mk_margin": 7.5,
+     "y_margin": 20.0,
+     "lk_total": 233.3,
+     "mk_total": 232.5,
+     "y_total": 220.0,
+     "shown_p": 0.7,
+     "mk_p": 0.7
+    },
+    {
+     "game_id": "401909936",
+     "home": "PHX",
+     "away": "ORL",
+     "start": "2026-11-06T02:00:00+00:00",
+     "hours": 1.29,
+     "lk_margin": 1.4,
+     "mk_margin": 1.5,
+     "y_margin": 13.0,
+     "lk_total": 222.2,
+     "mk_total": 221.5,
+     "y_total": 221.0,
+     "shown_p": 0.51,
+     "mk_p": 0.51
+    }
+   ]
+  },
+  "nfl": {
+   "last_look": {
+    "games": 1,
+    "margin": {
+     "n": 1,
+     "miss_locksmith": 13.05,
+     "miss_market": 13.0,
+     "closer": 0,
+     "market_closer": 1,
+     "ties": 0
+    },
+    "total": {
+     "n": 1,
+     "miss_locksmith": 2.94,
+     "miss_market": 3.5,
+     "closer": 1,
+     "market_closer": 0,
+     "ties": 0
+    }
+   },
+   "first_look": {
+    "games": 1,
+    "margin": {
+     "n": 1,
+     "miss_locksmith": 13.05,
+     "miss_market": 13.0,
+     "closer": 0,
+     "market_closer": 1,
+     "ties": 0
+    },
+    "total": {
+     "n": 1,
+     "miss_locksmith": 2.94,
+     "miss_market": 3.5,
+     "closer": 1,
+     "market_closer": 0,
+     "ties": 0
+    }
+   },
+   "day_before_or_earlier": null,
+   "reliability": [
+    {
+     "lo": 0.8,
+     "hi": 1.0,
+     "n": 1,
+     "promised": 0.812,
+     "won": 1.0
+    }
+   ],
+   "vs_market": {
+    "margin": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 1,
+      "locksmith": 13.05,
+      "market": 13.0,
+      "gain": -0.05,
+      "t": null,
+      "closer": 0,
+      "market_closer": 1,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "total": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 1,
+      "locksmith": 2.94,
+      "market": 3.5,
+      "gain": 0.56,
+      "t": null,
+      "closer": 1,
+      "market_closer": 0,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "win": {
+     "current": {
+      "metric": "log loss",
+      "n": 1,
+      "locksmith": 0.2078,
+      "market": 0.2076,
+      "gain": -0.0002,
+      "t": null,
+      "closer": 0,
+      "market_closer": 1,
+      "same_number": 1,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    }
+   },
+   "games": [
+    {
+     "game_id": "2026_09_JAX_BAL",
+     "home": "BAL",
+     "away": "JAX",
+     "start": "2026-11-06T01:15:00+00:00",
+     "hours": 0.54,
+     "lk_margin": -9.9,
+     "mk_margin": -10.0,
+     "y_margin": -23.0,
+     "lk_total": 40.1,
+     "mk_total": 39.5,
+     "y_total": 43.0,
+     "shown_p": 0.188,
+     "mk_p": 0.188
+    }
+   ]
+  },
+  "nhl": {
+   "last_look": {
+    "games": 2,
+    "total": {
+     "n": 2,
+     "miss_locksmith": 1.99,
+     "miss_market": 2.0,
+     "closer": 1,
+     "market_closer": 1,
+     "ties": 0
+    }
+   },
+   "first_look": {
+    "games": 2,
+    "total": {
+     "n": 2,
+     "miss_locksmith": 1.99,
+     "miss_market": 2.0,
+     "closer": 1,
+     "market_closer": 1,
+     "ties": 0
+    }
+   },
+   "day_before_or_earlier": null,
+   "reliability": [
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 2,
+     "promised": 0.641,
+     "won": 0.0
+    }
+   ],
+   "vs_market": {
+    "total": {
+     "current": {
+      "metric": "average miss (points)",
+      "n": 2,
+      "locksmith": 1.99,
+      "market": 2.0,
+      "gain": 0.01,
+      "t": null,
+      "closer": 1,
+      "market_closer": 1,
+      "same_number": 0,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    },
+    "win": {
+     "current": {
+      "metric": "log loss",
+      "n": 2,
+      "locksmith": 1.0248,
+      "market": 1.0248,
+      "gain": 0.0,
+      "t": null,
+      "closer": 0,
+      "market_closer": 0,
+      "same_number": 2,
+      "verdict": "too_few"
+     },
+     "open": null,
+     "open_source": "us_book",
+     "open_by_source": {}
+    }
+   },
+   "games": [
+    {
+     "game_id": "2026020261",
+     "home": "COL",
+     "away": "NSH",
+     "start": "2026-11-06T02:30:00+00:00",
+     "hours": 1.79,
+     "lk_margin": 1.6,
+     "mk_margin": null,
+     "y_margin": -1.0,
+     "lk_total": 6.6,
+     "mk_total": 6.5,
+     "y_total": 5.0,
+     "shown_p": 0.656,
+     "mk_p": 0.656
+    },
+    {
+     "game_id": "2026020260",
+     "home": "EDM",
+     "away": "ANA",
+     "start": "2026-11-06T01:00:00+00:00",
+     "hours": 0.29,
+     "lk_margin": 0.5,
+     "mk_margin": null,
+     "y_margin": -1.0,
+     "lk_total": 6.6,
+     "mk_total": 6.5,
+     "y_total": 9.0,
+     "shown_p": 0.625,
+     "mk_p": 0.625
+    }
+   ]
+  }
+ }
+}

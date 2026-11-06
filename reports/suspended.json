@@ -1,0 +1,10 @@
+{
+ "nba|spread": {
+  "n": 17,
+  "wins": 6,
+  "expected_wins": 9.5,
+  "z": -1.7,
+  "units": -8.38,
+  "why": "NBA spreads lose at the current price in testing (-2.8% a bet at the close) and went 6-11 live."
+ }
+}

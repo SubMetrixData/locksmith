@@ -1,0 +1,1798 @@
+{
+ "nba_margin": {
+  "sport": "nba",
+  "market": "margin",
+  "n": 5362,
+  "seasons": 5,
+  "mae": {
+   "line": 10.5342,
+   "model": 10.8034,
+   "anchor": 10.5344,
+   "ridge": 10.5396,
+   "gbm": 10.5396,
+   "avg": 10.5396
+  },
+  "t_vs_line": {
+   "ridge": -1.38,
+   "gbm": -1.38,
+   "avg": -1.38,
+   "anchor": -1.74
+  },
+  "seasons_better": {
+   "ridge": 2,
+   "gbm": 2,
+   "avg": 2,
+   "anchor": 0
+  },
+  "by_season": {
+   "2022": {
+    "line": 9.837,
+    "model": 9.95,
+    "anchor": 9.837,
+    "ridge": 9.856,
+    "gbm": 9.856,
+    "avg": 9.856,
+    "n": 1320
+   },
+   "2023": {
+    "line": 10.65,
+    "model": 10.934,
+    "anchor": 10.651,
+    "ridge": 10.655,
+    "gbm": 10.655,
+    "avg": 10.655,
+    "n": 1319
+   },
+   "2024": {
+    "line": 10.621,
+    "model": 10.928,
+    "anchor": 10.621,
+    "ridge": 10.619,
+    "gbm": 10.619,
+    "avg": 10.619,
+    "n": 1307
+   },
+   "2025": {
+    "line": 11.014,
+    "model": 11.383,
+    "anchor": 11.014,
+    "ridge": 11.012,
+    "gbm": 11.012,
+    "avg": 11.012,
+    "n": 1293
+   },
+   "2026": {
+    "line": 10.813,
+    "model": 11.139,
+    "anchor": 10.813,
+    "ridge": 10.83,
+    "gbm": 10.83,
+    "avg": 10.83,
+    "n": 123
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": -0.0002,
+  "gain_pct": -0.0,
+  "win_prob": {
+   "n": 5356,
+   "logloss": {
+    "market": 0.59295,
+    "line": 0.59256,
+    "stack": 0.59256
+   },
+   "beats_market": true,
+   "t_vs_market": 0.74
+  },
+  "feats": [
+   "e",
+   "mv",
+   "rest_h",
+   "rest_a",
+   "b2b_h",
+   "b2b_a",
+   "line_v"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "nba_total": {
+  "sport": "nba",
+  "market": "total",
+  "n": 5358,
+  "seasons": 5,
+  "mae": {
+   "line": 14.1809,
+   "model": 14.7806,
+   "anchor": 14.1809,
+   "ridge": 14.1813,
+   "gbm": 14.1813,
+   "avg": 14.1813
+  },
+  "t_vs_line": {
+   "ridge": -0.04,
+   "gbm": -0.04,
+   "avg": -0.04,
+   "anchor": 0.0
+  },
+  "seasons_better": {
+   "ridge": 3,
+   "gbm": 3,
+   "avg": 3,
+   "anchor": 0
+  },
+  "by_season": {
+   "2022": {
+    "line": 14.152,
+    "model": 14.612,
+    "anchor": 14.152,
+    "ridge": 14.155,
+    "gbm": 14.155,
+    "avg": 14.155,
+    "n": 1318
+   },
+   "2023": {
+    "line": 14.104,
+    "model": 15.001,
+    "anchor": 14.104,
+    "ridge": 14.134,
+    "gbm": 14.134,
+    "avg": 14.134,
+    "n": 1319
+   },
+   "2024": {
+    "line": 14.033,
+    "model": 14.573,
+    "anchor": 14.033,
+    "ridge": 14.011,
+    "gbm": 14.011,
+    "avg": 14.011,
+    "n": 1307
+   },
+   "2025": {
+    "line": 14.433,
+    "model": 14.941,
+    "anchor": 14.433,
+    "ridge": 14.424,
+    "gbm": 14.424,
+    "avg": 14.424,
+    "n": 1291
+   },
+   "2026": {
+    "line": 14.236,
+    "model": 14.743,
+    "anchor": 14.236,
+    "ridge": 14.232,
+    "gbm": 14.232,
+    "avg": 14.232,
+    "n": 123
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": -0.0004,
+  "gain_pct": -0.0,
+  "feats": [
+   "e",
+   "mv",
+   "rest_h",
+   "rest_a",
+   "b2b_any",
+   "line_v"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "wnba_margin": {
+  "sport": "wnba",
+  "market": "margin",
+  "n": 1422,
+  "seasons": 5,
+  "mae": {
+   "line": 9.5818,
+   "model": 9.7458,
+   "anchor": 9.5623,
+   "ridge": 9.5735,
+   "gbm": 9.5735,
+   "avg": 9.5735
+  },
+  "t_vs_line": {
+   "ridge": 0.62,
+   "gbm": 0.62,
+   "avg": 0.62,
+   "anchor": 1.29
+  },
+  "seasons_better": {
+   "ridge": 3,
+   "gbm": 3,
+   "avg": 3,
+   "anchor": 3
+  },
+  "by_season": {
+   "2022": {
+    "line": 9.485,
+    "model": 9.856,
+    "anchor": 9.487,
+    "ridge": 9.488,
+    "gbm": 9.488,
+    "avg": 9.488,
+    "n": 240
+   },
+   "2023": {
+    "line": 9.557,
+    "model": 9.542,
+    "anchor": 9.522,
+    "ridge": 9.568,
+    "gbm": 9.568,
+    "avg": 9.568,
+    "n": 261
+   },
+   "2024": {
+    "line": 8.4,
+    "model": 8.856,
+    "anchor": 8.43,
+    "ridge": 8.394,
+    "gbm": 8.394,
+    "avg": 8.394,
+    "n": 261
+   },
+   "2025": {
+    "line": 10.439,
+    "model": 10.488,
+    "anchor": 10.405,
+    "ridge": 10.425,
+    "gbm": 10.425,
+    "avg": 10.425,
+    "n": 310
+   },
+   "2026": {
+    "line": 9.789,
+    "model": 9.828,
+    "anchor": 9.742,
+    "ridge": 9.762,
+    "gbm": 9.762,
+    "avg": 9.762,
+    "n": 350
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": 0.0195,
+  "gain_pct": 0.2,
+  "win_prob": {
+   "n": 1411,
+   "logloss": {
+    "market": 0.58477,
+    "line": 0.58421,
+    "stack": 0.58369
+   },
+   "beats_market": true,
+   "t_vs_market": 0.78
+  },
+  "feats": [
+   "e",
+   "mv",
+   "rest_h",
+   "rest_a",
+   "b2b_h",
+   "b2b_a",
+   "line_v"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "wnba_total": {
+  "sport": "wnba",
+  "market": "total",
+  "n": 1414,
+  "seasons": 5,
+  "mae": {
+   "line": 13.4692,
+   "model": 13.7386,
+   "anchor": 13.4581,
+   "ridge": 13.476,
+   "gbm": 13.476,
+   "avg": 13.476
+  },
+  "t_vs_line": {
+   "ridge": -0.42,
+   "gbm": -0.42,
+   "avg": -0.42,
+   "anchor": 0.71
+  },
+  "seasons_better": {
+   "ridge": 1,
+   "gbm": 1,
+   "avg": 1,
+   "anchor": 4
+  },
+  "by_season": {
+   "2022": {
+    "line": 13.449,
+    "model": 13.664,
+    "anchor": 13.435,
+    "ridge": 13.515,
+    "gbm": 13.515,
+    "avg": 13.515,
+    "n": 240
+   },
+   "2023": {
+    "line": 13.775,
+    "model": 13.801,
+    "anchor": 13.75,
+    "ridge": 13.789,
+    "gbm": 13.789,
+    "avg": 13.789,
+    "n": 261
+   },
+   "2024": {
+    "line": 12.18,
+    "model": 12.481,
+    "anchor": 12.164,
+    "ridge": 12.19,
+    "gbm": 12.19,
+    "avg": 12.19,
+    "n": 253
+   },
+   "2025": {
+    "line": 12.981,
+    "model": 13.19,
+    "anchor": 12.985,
+    "ridge": 12.989,
+    "gbm": 12.989,
+    "avg": 12.989,
+    "n": 310
+   },
+   "2026": {
+    "line": 14.62,
+    "model": 15.138,
+    "anchor": 14.611,
+    "ridge": 14.577,
+    "gbm": 14.577,
+    "avg": 14.577,
+    "n": 350
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": 0.0112,
+  "gain_pct": 0.08,
+  "feats": [
+   "e",
+   "mv",
+   "rest_h",
+   "rest_a",
+   "b2b_any",
+   "line_v"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "cfb_margin": {
+  "sport": "cfb",
+  "market": "margin",
+  "n": 7484,
+  "seasons": 9,
+  "mae": {
+   "line": 12.1724,
+   "model": 12.4654,
+   "anchor": 12.1742,
+   "ridge": 12.177,
+   "gbm": 12.177,
+   "avg": 12.177
+  },
+  "t_vs_line": {
+   "ridge": -0.58,
+   "gbm": -0.58,
+   "avg": -0.58,
+   "anchor": -0.19
+  },
+  "seasons_better": {
+   "ridge": 6,
+   "gbm": 6,
+   "avg": 6,
+   "anchor": 5
+  },
+  "by_season": {
+   "2018": {
+    "line": 12.483,
+    "model": 12.727,
+    "anchor": 12.45,
+    "ridge": 12.464,
+    "gbm": 12.464,
+    "avg": 12.464,
+    "n": 884
+   },
+   "2019": {
+    "line": 12.02,
+    "model": 12.246,
+    "anchor": 12.002,
+    "ridge": 12.013,
+    "gbm": 12.013,
+    "avg": 12.013,
+    "n": 887
+   },
+   "2020": {
+    "line": 12.735,
+    "model": 13.036,
+    "anchor": 12.737,
+    "ridge": 12.734,
+    "gbm": 12.734,
+    "avg": 12.734,
+    "n": 567
+   },
+   "2021": {
+    "line": 12.614,
+    "model": 13.214,
+    "anchor": 12.703,
+    "ridge": 12.673,
+    "gbm": 12.673,
+    "avg": 12.673,
+    "n": 881
+   },
+   "2022": {
+    "line": 12.169,
+    "model": 12.461,
+    "anchor": 12.175,
+    "ridge": 12.187,
+    "gbm": 12.187,
+    "avg": 12.187,
+    "n": 892
+   },
+   "2023": {
+    "line": 12.043,
+    "model": 12.258,
+    "anchor": 12.036,
+    "ridge": 12.02,
+    "gbm": 12.02,
+    "avg": 12.02,
+    "n": 908
+   },
+   "2024": {
+    "line": 11.957,
+    "model": 12.236,
+    "anchor": 11.936,
+    "ridge": 11.948,
+    "gbm": 11.948,
+    "avg": 11.948,
+    "n": 903
+   },
+   "2025": {
+    "line": 11.893,
+    "model": 11.939,
+    "anchor": 11.859,
+    "ridge": 11.889,
+    "gbm": 11.889,
+    "avg": 11.889,
+    "n": 933
+   },
+   "2026": {
+    "line": 11.738,
+    "model": 12.26,
+    "anchor": 11.79,
+    "ridge": 11.775,
+    "gbm": 11.775,
+    "avg": 11.775,
+    "n": 629
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": -0.0019,
+  "gain_pct": -0.02,
+  "feats": [
+   "e",
+   "mv",
+   "d_mov",
+   "d_mkt",
+   "neutral",
+   "conf",
+   "week",
+   "line_v",
+   "wind",
+   "gust",
+   "temp",
+   "precip",
+   "indoor"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "cfb_total": {
+  "sport": "cfb",
+  "market": "total",
+  "n": 7484,
+  "seasons": 9,
+  "mae": {
+   "line": 12.6406,
+   "model": 12.923,
+   "anchor": 12.6328,
+   "ridge": 12.6208,
+   "gbm": 12.6208,
+   "avg": 12.6208
+  },
+  "t_vs_line": {
+   "ridge": 1.44,
+   "gbm": 1.44,
+   "avg": 1.44,
+   "anchor": 0.7
+  },
+  "seasons_better": {
+   "ridge": 5,
+   "gbm": 5,
+   "avg": 5,
+   "anchor": 5
+  },
+  "by_season": {
+   "2018": {
+    "line": 12.882,
+    "model": 13.294,
+    "anchor": 12.924,
+    "ridge": 12.918,
+    "gbm": 12.918,
+    "avg": 12.918,
+    "n": 884
+   },
+   "2019": {
+    "line": 12.954,
+    "model": 13.123,
+    "anchor": 12.929,
+    "ridge": 12.916,
+    "gbm": 12.916,
+    "avg": 12.916,
+    "n": 887
+   },
+   "2020": {
+    "line": 13.725,
+    "model": 13.63,
+    "anchor": 13.647,
+    "ridge": 13.746,
+    "gbm": 13.746,
+    "avg": 13.746,
+    "n": 567
+   },
+   "2021": {
+    "line": 12.46,
+    "model": 12.798,
+    "anchor": 12.477,
+    "ridge": 12.407,
+    "gbm": 12.407,
+    "avg": 12.407,
+    "n": 881
+   },
+   "2022": {
+    "line": 12.158,
+    "model": 12.702,
+    "anchor": 12.17,
+    "ridge": 12.128,
+    "gbm": 12.128,
+    "avg": 12.128,
+    "n": 892
+   },
+   "2023": {
+    "line": 12.592,
+    "model": 12.918,
+    "anchor": 12.57,
+    "ridge": 12.562,
+    "gbm": 12.562,
+    "avg": 12.562,
+    "n": 908
+   },
+   "2024": {
+    "line": 12.653,
+    "model": 12.685,
+    "anchor": 12.587,
+    "ridge": 12.561,
+    "gbm": 12.561,
+    "avg": 12.561,
+    "n": 903
+   },
+   "2025": {
+    "line": 12.435,
+    "model": 12.643,
+    "anchor": 12.431,
+    "ridge": 12.444,
+    "gbm": 12.444,
+    "avg": 12.444,
+    "n": 933
+   },
+   "2026": {
+    "line": 12.177,
+    "model": 12.735,
+    "anchor": 12.219,
+    "ridge": 12.204,
+    "gbm": 12.204,
+    "avg": 12.204,
+    "n": 629
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": 0.0198,
+  "gain_pct": 0.16,
+  "feats": [
+   "e",
+   "mv",
+   "s_off",
+   "s_def",
+   "week",
+   "line_v",
+   "wind",
+   "gust",
+   "temp",
+   "precip",
+   "indoor"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "nhl_total": {
+  "sport": "nhl",
+  "market": "total",
+  "n": 5792,
+  "seasons": 5,
+  "mae": {
+   "line": 1.8412,
+   "model": 1.8383,
+   "anchor": 1.8364,
+   "ridge": 1.839,
+   "gbm": 1.839,
+   "avg": 1.839
+  },
+  "t_vs_line": {
+   "ridge": 0.72,
+   "gbm": 0.72,
+   "avg": 0.72,
+   "anchor": 1.5
+  },
+  "seasons_better": {
+   "ridge": 4,
+   "gbm": 4,
+   "avg": 4,
+   "anchor": 2
+  },
+  "by_season": {
+   "2022": {
+    "line": 1.822,
+    "model": 1.803,
+    "anchor": 1.806,
+    "ridge": 1.817,
+    "gbm": 1.817,
+    "avg": 1.817,
+    "n": 1400
+   },
+   "2023": {
+    "line": 1.857,
+    "model": 1.854,
+    "anchor": 1.852,
+    "ridge": 1.854,
+    "gbm": 1.854,
+    "avg": 1.854,
+    "n": 1399
+   },
+   "2024": {
+    "line": 1.874,
+    "model": 1.879,
+    "anchor": 1.874,
+    "ridge": 1.872,
+    "gbm": 1.872,
+    "avg": 1.872,
+    "n": 1388
+   },
+   "2025": {
+    "line": 1.82,
+    "model": 1.823,
+    "anchor": 1.82,
+    "ridge": 1.819,
+    "gbm": 1.819,
+    "avg": 1.819,
+    "n": 1346
+   },
+   "2026": {
+    "line": 1.797,
+    "model": 1.806,
+    "anchor": 1.801,
+    "ridge": 1.803,
+    "gbm": 1.803,
+    "avg": 1.803,
+    "n": 259
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": 0.0049,
+  "gain_pct": 0.27,
+  "feats": [
+   "e",
+   "mv",
+   "rest_h",
+   "rest_a",
+   "line_v"
+  ],
+  "at": "close",
+  "passes_stack_bar": true,
+  "certify_verdict": "tie"
+ },
+ "nfl_margin": {
+  "sport": "nfl",
+  "market": "margin",
+  "n": 2616,
+  "seasons": 10,
+  "mae": {
+   "line": 9.8442,
+   "model": 9.8497,
+   "anchor": 9.8463,
+   "ridge": 9.854,
+   "gbm": 9.854,
+   "avg": 9.854
+  },
+  "t_vs_line": {
+   "ridge": -1.07,
+   "gbm": -1.07,
+   "avg": -1.07,
+   "anchor": -1.01
+  },
+  "seasons_better": {
+   "ridge": 2,
+   "gbm": 2,
+   "avg": 2,
+   "anchor": 3
+  },
+  "by_season": {
+   "2017": {
+    "line": 10.081,
+    "model": 10.075,
+    "anchor": 10.079,
+    "ridge": 10.097,
+    "gbm": 10.097,
+    "avg": 10.097,
+    "n": 267
+   },
+   "2018": {
+    "line": 9.875,
+    "model": 9.85,
+    "anchor": 9.875,
+    "ridge": 9.896,
+    "gbm": 9.896,
+    "avg": 9.896,
+    "n": 267
+   },
+   "2019": {
+    "line": 10.176,
+    "model": 10.247,
+    "anchor": 10.199,
+    "ridge": 10.196,
+    "gbm": 10.196,
+    "avg": 10.196,
+    "n": 267
+   },
+   "2020": {
+    "line": 9.79,
+    "model": 9.757,
+    "anchor": 9.79,
+    "ridge": 9.794,
+    "gbm": 9.794,
+    "avg": 9.794,
+    "n": 269
+   },
+   "2021": {
+    "line": 10.667,
+    "model": 10.666,
+    "anchor": 10.665,
+    "ridge": 10.657,
+    "gbm": 10.657,
+    "avg": 10.657,
+    "n": 285
+   },
+   "2022": {
+    "line": 8.783,
+    "model": 8.802,
+    "anchor": 8.785,
+    "ridge": 8.819,
+    "gbm": 8.819,
+    "avg": 8.819,
+    "n": 284
+   },
+   "2023": {
+    "line": 9.984,
+    "model": 9.994,
+    "anchor": 9.984,
+    "ridge": 10.005,
+    "gbm": 10.005,
+    "avg": 10.005,
+    "n": 285
+   },
+   "2024": {
+    "line": 9.704,
+    "model": 9.683,
+    "anchor": 9.702,
+    "ridge": 9.684,
+    "gbm": 9.684,
+    "avg": 9.684,
+    "n": 285
+   },
+   "2025": {
+    "line": 9.67,
+    "model": 9.69,
+    "anchor": 9.671,
+    "ridge": 9.672,
+    "gbm": 9.672,
+    "avg": 9.672,
+    "n": 285
+   },
+   "2026": {
+    "line": 9.611,
+    "model": 9.65,
+    "anchor": 9.611,
+    "ridge": 9.614,
+    "gbm": 9.614,
+    "avg": 9.614,
+    "n": 122
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": -0.0021,
+  "gain_pct": -0.02,
+  "win_prob": {
+   "n": 2606,
+   "logloss": {
+    "market": 0.60882,
+    "line": 0.60974,
+    "stack": 0.60995
+   },
+   "beats_market": false,
+   "t_vs_market": -0.91
+  },
+  "feats": [
+   "e",
+   "e_rf",
+   "e_gf",
+   "e_pm",
+   "e_ro",
+   "e_kal",
+   "e_elo",
+   "e_mkt",
+   "rest_diff",
+   "div",
+   "line_v",
+   "wind",
+   "temp",
+   "indoor",
+   "primetime"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "nfl_total": {
+  "sport": "nfl",
+  "market": "total",
+  "n": 2616,
+  "seasons": 10,
+  "mae": {
+   "line": 10.5107,
+   "model": 10.5179,
+   "anchor": 10.5155,
+   "ridge": 10.5015,
+   "gbm": 10.5015,
+   "avg": 10.5015
+  },
+  "t_vs_line": {
+   "ridge": 0.95,
+   "gbm": 0.95,
+   "avg": 0.95,
+   "anchor": -0.72
+  },
+  "seasons_better": {
+   "ridge": 7,
+   "gbm": 7,
+   "avg": 7,
+   "anchor": 2
+  },
+  "by_season": {
+   "2017": {
+    "line": 11.257,
+    "model": 11.254,
+    "anchor": 11.257,
+    "ridge": 11.244,
+    "gbm": 11.244,
+    "avg": 11.244,
+    "n": 267
+   },
+   "2018": {
+    "line": 10.719,
+    "model": 10.705,
+    "anchor": 10.719,
+    "ridge": 10.701,
+    "gbm": 10.701,
+    "avg": 10.701,
+    "n": 267
+   },
+   "2019": {
+    "line": 10.785,
+    "model": 10.79,
+    "anchor": 10.785,
+    "ridge": 10.808,
+    "gbm": 10.808,
+    "avg": 10.808,
+    "n": 267
+   },
+   "2020": {
+    "line": 10.303,
+    "model": 10.306,
+    "anchor": 10.303,
+    "ridge": 10.292,
+    "gbm": 10.292,
+    "avg": 10.292,
+    "n": 269
+   },
+   "2021": {
+    "line": 10.807,
+    "model": 10.804,
+    "anchor": 10.807,
+    "ridge": 10.8,
+    "gbm": 10.8,
+    "avg": 10.8,
+    "n": 285
+   },
+   "2022": {
+    "line": 10.398,
+    "model": 10.385,
+    "anchor": 10.395,
+    "ridge": 10.362,
+    "gbm": 10.362,
+    "avg": 10.362,
+    "n": 284
+   },
+   "2023": {
+    "line": 10.168,
+    "model": 10.209,
+    "anchor": 10.173,
+    "ridge": 10.131,
+    "gbm": 10.131,
+    "avg": 10.131,
+    "n": 285
+   },
+   "2024": {
+    "line": 9.768,
+    "model": 9.771,
+    "anchor": 9.769,
+    "ridge": 9.781,
+    "gbm": 9.781,
+    "avg": 9.781,
+    "n": 285
+   },
+   "2025": {
+    "line": 10.423,
+    "model": 10.399,
+    "anchor": 10.404,
+    "ridge": 10.412,
+    "gbm": 10.412,
+    "avg": 10.412,
+    "n": 285
+   },
+   "2026": {
+    "line": 10.59,
+    "model": 10.753,
+    "anchor": 10.73,
+    "ridge": 10.615,
+    "gbm": 10.615,
+    "avg": 10.615,
+    "n": 122
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": 0.0092,
+  "gain_pct": 0.09,
+  "feats": [
+   "e",
+   "e_rf",
+   "e_ro",
+   "e_mkt",
+   "line_v",
+   "wind",
+   "temp",
+   "indoor",
+   "primetime"
+  ],
+  "at": "close",
+  "passes_stack_bar": false,
+  "certify_verdict": "tie"
+ },
+ "nba_margin_open": {
+  "sport": "nba",
+  "market": "margin",
+  "n": 4661,
+  "seasons": 5,
+  "mae": {
+   "line": 10.8575,
+   "model": 10.9864,
+   "anchor": 10.8454,
+   "ridge": 10.8472,
+   "gbm": 10.8472,
+   "avg": 10.8472,
+   "line_close": 10.6348
+  },
+  "t_vs_line": {
+   "ridge": 1.13,
+   "gbm": 1.13,
+   "avg": 1.13,
+   "anchor": 1.09
+  },
+  "seasons_better": {
+   "ridge": 4,
+   "gbm": 4,
+   "avg": 4,
+   "anchor": 5
+  },
+  "by_season": {
+   "2022": {
+    "line": 9.884,
+    "model": 9.953,
+    "anchor": 9.871,
+    "ridge": 9.927,
+    "gbm": 9.927,
+    "avg": 9.927,
+    "line_close": 9.84,
+    "n": 664
+   },
+   "2023": {
+    "line": 10.801,
+    "model": 10.907,
+    "anchor": 10.791,
+    "ridge": 10.785,
+    "gbm": 10.785,
+    "avg": 10.785,
+    "line_close": 10.65,
+    "n": 1319
+   },
+   "2024": {
+    "line": 10.893,
+    "model": 11.021,
+    "anchor": 10.872,
+    "ridge": 10.86,
+    "gbm": 10.86,
+    "avg": 10.86,
+    "line_close": 10.627,
+    "n": 1303
+   },
+   "2025": {
+    "line": 11.386,
+    "model": 11.55,
+    "anchor": 11.382,
+    "ridge": 11.377,
+    "gbm": 11.377,
+    "avg": 11.377,
+    "line_close": 11.031,
+    "n": 1252
+   },
+   "2026": {
+    "line": 10.959,
+    "model": 11.308,
+    "anchor": 10.952,
+    "ridge": 10.941,
+    "gbm": 10.941,
+    "avg": 10.941,
+    "line_close": 10.813,
+    "n": 123
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": 0.0103,
+  "gain_pct": 0.1,
+  "vs_close": {
+   "t": -6.32,
+   "closed_gap_pct": 4.6
+  },
+  "win_prob": {
+   "n": 4657,
+   "logloss": {
+    "market": 0.5902,
+    "line": 0.60345,
+    "stack": 0.60257
+   },
+   "beats_market": false,
+   "t_vs_market": -6.15
+  },
+  "feats": [
+   "e",
+   "rest_h",
+   "rest_a",
+   "b2b_h",
+   "b2b_a",
+   "line_v"
+  ],
+  "at": "open",
+  "passes_stack_bar": false,
+  "info_set": "m_model / t_model refit walk-forward on strictly pre-game lineups (nba/cleanlineup.py), not tonight's box score",
+  "certify_verdict": "tie"
+ },
+ "nba_total_open": {
+  "sport": "nba",
+  "market": "total",
+  "n": 4639,
+  "seasons": 5,
+  "mae": {
+   "line": 14.5432,
+   "model": 14.703,
+   "anchor": 14.4859,
+   "ridge": 14.5053,
+   "gbm": 14.5053,
+   "avg": 14.5053,
+   "line_close": 14.0826
+  },
+  "t_vs_line": {
+   "ridge": 2.79,
+   "gbm": 2.79,
+   "avg": 2.79,
+   "anchor": 3.69
+  },
+  "seasons_better": {
+   "ridge": 4,
+   "gbm": 4,
+   "avg": 4,
+   "anchor": 5
+  },
+  "by_season": {
+   "2022": {
+    "line": 14.018,
+    "model": 13.962,
+    "anchor": 13.984,
+    "ridge": 14.011,
+    "gbm": 14.011,
+    "avg": 14.011,
+    "line_close": 13.628,
+    "n": 659
+   },
+   "2023": {
+    "line": 14.451,
+    "model": 14.971,
+    "anchor": 14.415,
+    "ridge": 14.452,
+    "gbm": 14.452,
+    "avg": 14.452,
+    "line_close": 14.071,
+    "n": 1316
+   },
+   "2024": {
+    "line": 14.533,
+    "model": 14.571,
+    "anchor": 14.461,
+    "ridge": 14.474,
+    "gbm": 14.474,
+    "avg": 14.474,
+    "line_close": 14.011,
+    "n": 1304
+   },
+   "2025": {
+    "line": 14.878,
+    "model": 14.95,
+    "anchor": 14.812,
+    "ridge": 14.809,
+    "gbm": 14.809,
+    "avg": 14.809,
+    "line_close": 14.397,
+    "n": 1237
+   },
+   "2026": {
+    "line": 15.081,
+    "model": 14.719,
+    "anchor": 14.916,
+    "ridge": 14.993,
+    "gbm": 14.993,
+    "avg": 14.993,
+    "line_close": 14.236,
+    "n": 123
+   }
+  },
+  "method": "anchor",
+  "use": true,
+  "gain_pts": 0.0573,
+  "gain_pct": 0.39,
+  "vs_close": {
+   "t": -7.69,
+   "closed_gap_pct": 12.4
+  },
+  "feats": [
+   "e",
+   "rest_h",
+   "rest_a",
+   "b2b_any",
+   "line_v"
+  ],
+  "at": "open",
+  "passes_stack_bar": true,
+  "info_set": "m_model / t_model refit walk-forward on strictly pre-game lineups (nba/cleanlineup.py), not tonight's box score",
+  "certify_verdict": "better",
+  "coef": {
+   "const": 0.2095,
+   "e": 1.3033,
+   "rest_h": 0.2689,
+   "rest_a": 0.0361,
+   "b2b_any": 0.0744,
+   "line_v": 0.2637
+  },
+  "sd_resid": 18.383433753640308,
+  "w": 0.30885681801677356
+ },
+ "nhl_total_open": {
+  "sport": "nhl",
+  "market": "total",
+  "n": 4644,
+  "seasons": 5,
+  "mae": {
+   "line": 1.8694,
+   "model": 1.8453,
+   "anchor": 1.8462,
+   "ridge": 1.8467,
+   "gbm": 1.8467,
+   "avg": 1.8467,
+   "line_close": 1.8428
+  },
+  "t_vs_line": {
+   "ridge": 4.27,
+   "gbm": 4.27,
+   "avg": 4.27,
+   "anchor": 4.65
+  },
+  "seasons_better": {
+   "ridge": 5,
+   "gbm": 5,
+   "avg": 5,
+   "anchor": 5
+  },
+  "by_season": {
+   "2022": {
+    "line": 1.795,
+    "model": 1.788,
+    "anchor": 1.788,
+    "ridge": 1.789,
+    "gbm": 1.789,
+    "avg": 1.789,
+    "line_close": 1.803,
+    "n": 342
+   },
+   "2023": {
+    "line": 1.865,
+    "model": 1.855,
+    "anchor": 1.855,
+    "ridge": 1.856,
+    "gbm": 1.856,
+    "avg": 1.856,
+    "line_close": 1.857,
+    "n": 1399
+   },
+   "2024": {
+    "line": 1.911,
+    "model": 1.877,
+    "anchor": 1.88,
+    "ridge": 1.878,
+    "gbm": 1.878,
+    "avg": 1.878,
+    "line_close": 1.873,
+    "n": 1384
+   },
+   "2025": {
+    "line": 1.852,
+    "model": 1.822,
+    "anchor": 1.822,
+    "ridge": 1.822,
+    "gbm": 1.822,
+    "avg": 1.822,
+    "line_close": 1.815,
+    "n": 1262
+   },
+   "2026": {
+    "line": 1.848,
+    "model": 1.814,
+    "anchor": 1.814,
+    "ridge": 1.824,
+    "gbm": 1.824,
+    "avg": 1.824,
+    "line_close": 1.796,
+    "n": 257
+   }
+  },
+  "method": "anchor",
+  "use": true,
+  "gain_pts": 0.0232,
+  "gain_pct": 1.24,
+  "vs_close": {
+   "t": -0.68,
+   "closed_gap_pct": 87.4
+  },
+  "feats": [
+   "e",
+   "rest_h",
+   "rest_a",
+   "line_v"
+  ],
+  "at": "open",
+  "passes_stack_bar": true,
+  "info_set": "total_mean from bt_games_open.parquet: expected goalie from recent starts and the previous game's lineup",
+  "certify_verdict": "better",
+  "coef": {
+   "const": 0.1617,
+   "e": 0.249,
+   "rest_h": 0.0301,
+   "rest_a": 0.0154,
+   "line_v": -0.1456
+  },
+  "sd_resid": 2.323683732393808,
+  "w": 0.8967602499191826
+ },
+ "cfb_margin_open": {
+  "sport": "cfb",
+  "market": "margin",
+  "n": 6708,
+  "seasons": 8,
+  "mae": {
+   "line": 12.2454,
+   "model": 12.4085,
+   "anchor": 12.2199,
+   "ridge": 12.2228,
+   "gbm": 12.2228,
+   "avg": 12.2228,
+   "line_close": 12.1073
+  },
+  "t_vs_line": {
+   "ridge": 2.3,
+   "gbm": 2.3,
+   "avg": 2.3,
+   "anchor": 2.22
+  },
+  "seasons_better": {
+   "ridge": 6,
+   "gbm": 6,
+   "avg": 6,
+   "anchor": 7
+  },
+  "by_season": {
+   "2018": {
+    "line": 12.517,
+    "model": 12.667,
+    "anchor": 12.464,
+    "ridge": 12.508,
+    "gbm": 12.508,
+    "avg": 12.508,
+    "line_close": 12.39,
+    "n": 866
+   },
+   "2019": {
+    "line": 12.063,
+    "model": 12.215,
+    "anchor": 12.017,
+    "ridge": 12.037,
+    "gbm": 12.037,
+    "avg": 12.037,
+    "line_close": 11.945,
+    "n": 863
+   },
+   "2021": {
+    "line": 12.792,
+    "model": 13.271,
+    "anchor": 12.875,
+    "ridge": 12.837,
+    "gbm": 12.837,
+    "avg": 12.837,
+    "line_close": 12.668,
+    "n": 863
+   },
+   "2022": {
+    "line": 12.137,
+    "model": 12.324,
+    "anchor": 12.132,
+    "ridge": 12.16,
+    "gbm": 12.16,
+    "avg": 12.16,
+    "line_close": 12.037,
+    "n": 806
+   },
+   "2023": {
+    "line": 12.278,
+    "model": 12.349,
+    "anchor": 12.23,
+    "ridge": 12.24,
+    "gbm": 12.24,
+    "avg": 12.24,
+    "line_close": 12.104,
+    "n": 849
+   },
+   "2024": {
+    "line": 12.099,
+    "model": 12.232,
+    "anchor": 12.069,
+    "ridge": 12.082,
+    "gbm": 12.082,
+    "avg": 12.082,
+    "line_close": 11.969,
+    "n": 902
+   },
+   "2025": {
+    "line": 11.968,
+    "model": 11.932,
+    "anchor": 11.916,
+    "ridge": 11.911,
+    "gbm": 11.911,
+    "avg": 11.911,
+    "line_close": 11.902,
+    "n": 932
+   },
+   "2026": {
+    "line": 12.086,
+    "model": 12.283,
+    "anchor": 12.027,
+    "ridge": 11.965,
+    "gbm": 11.965,
+    "avg": 11.965,
+    "line_close": 11.766,
+    "n": 627
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": 0.0255,
+  "gain_pct": 0.21,
+  "vs_close": {
+   "t": -4.59,
+   "closed_gap_pct": 18.5
+  },
+  "feats": [
+   "e",
+   "d_mov",
+   "d_mkt",
+   "neutral",
+   "conf",
+   "week",
+   "line_v",
+   "indoor"
+  ],
+  "at": "open",
+  "passes_stack_bar": true,
+  "info_set": "no realised weather: t_model refit walk-forward without the weather inputs, weather out of the stack features",
+  "certify_verdict": "tie"
+ },
+ "cfb_total_open": {
+  "sport": "cfb",
+  "market": "total",
+  "n": 6777,
+  "seasons": 8,
+  "mae": {
+   "line": 12.7618,
+   "model": 12.9095,
+   "anchor": 12.7397,
+   "ridge": 12.7257,
+   "gbm": 12.7257,
+   "avg": 12.7257,
+   "line_close": 12.5541
+  },
+  "t_vs_line": {
+   "ridge": 2.35,
+   "gbm": 2.35,
+   "avg": 2.35,
+   "anchor": 1.47
+  },
+  "seasons_better": {
+   "ridge": 6,
+   "gbm": 6,
+   "avg": 6,
+   "anchor": 7
+  },
+  "by_season": {
+   "2018": {
+    "line": 13.247,
+    "model": 13.414,
+    "anchor": 13.23,
+    "ridge": 13.266,
+    "gbm": 13.266,
+    "avg": 13.266,
+    "line_close": 12.882,
+    "n": 872
+   },
+   "2019": {
+    "line": 13.208,
+    "model": 13.242,
+    "anchor": 13.163,
+    "ridge": 13.152,
+    "gbm": 13.152,
+    "avg": 13.152,
+    "line_close": 12.988,
+    "n": 883
+   },
+   "2021": {
+    "line": 12.607,
+    "model": 12.803,
+    "anchor": 12.61,
+    "ridge": 12.54,
+    "gbm": 12.54,
+    "avg": 12.54,
+    "line_close": 12.437,
+    "n": 877
+   },
+   "2022": {
+    "line": 12.453,
+    "model": 12.781,
+    "anchor": 12.452,
+    "ridge": 12.487,
+    "gbm": 12.487,
+    "avg": 12.487,
+    "line_close": 12.096,
+    "n": 823
+   },
+   "2023": {
+    "line": 12.768,
+    "model": 12.974,
+    "anchor": 12.763,
+    "ridge": 12.747,
+    "gbm": 12.747,
+    "avg": 12.747,
+    "line_close": 12.635,
+    "n": 857
+   },
+   "2024": {
+    "line": 12.684,
+    "model": 12.703,
+    "anchor": 12.624,
+    "ridge": 12.592,
+    "gbm": 12.592,
+    "avg": 12.592,
+    "line_close": 12.653,
+    "n": 903
+   },
+   "2025": {
+    "line": 12.531,
+    "model": 12.596,
+    "anchor": 12.506,
+    "ridge": 12.462,
+    "gbm": 12.462,
+    "avg": 12.462,
+    "line_close": 12.435,
+    "n": 933
+   },
+   "2026": {
+    "line": 12.529,
+    "model": 12.734,
+    "anchor": 12.503,
+    "ridge": 12.502,
+    "gbm": 12.502,
+    "avg": 12.502,
+    "line_close": 12.177,
+    "n": 629
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": 0.0361,
+  "gain_pct": 0.28,
+  "vs_close": {
+   "t": -5.64,
+   "closed_gap_pct": 17.4
+  },
+  "feats": [
+   "e",
+   "s_off",
+   "s_def",
+   "week",
+   "line_v",
+   "indoor"
+  ],
+  "at": "open",
+  "passes_stack_bar": true,
+  "info_set": "no realised weather: t_model refit walk-forward without the weather inputs, weather out of the stack features",
+  "certify_verdict": "tie"
+ },
+ "nfl_margin_open": {
+  "sport": "nfl",
+  "market": "margin",
+  "n": 1059,
+  "seasons": 4,
+  "mae": {
+   "line": 10.11,
+   "model": 10.2809,
+   "anchor": 10.1066,
+   "ridge": 10.1061,
+   "gbm": 10.1061,
+   "avg": 10.1061,
+   "line_close": 9.9943
+  },
+  "t_vs_line": {
+   "ridge": 0.29,
+   "gbm": 0.29,
+   "avg": 0.29,
+   "anchor": 0.38
+  },
+  "seasons_better": {
+   "ridge": 2,
+   "gbm": 2,
+   "avg": 2,
+   "anchor": 2
+  },
+  "by_season": {
+   "2017": {
+    "line": 10.245,
+    "model": 10.607,
+    "anchor": 10.257,
+    "ridge": 10.261,
+    "gbm": 10.261,
+    "avg": 10.261,
+    "line_close": 10.14,
+    "n": 265
+   },
+   "2018": {
+    "line": 9.929,
+    "model": 9.815,
+    "anchor": 9.929,
+    "ridge": 9.93,
+    "gbm": 9.93,
+    "avg": 9.93,
+    "line_close": 9.861,
+    "n": 266
+   },
+   "2019": {
+    "line": 10.369,
+    "model": 10.822,
+    "anchor": 10.366,
+    "ridge": 10.345,
+    "gbm": 10.345,
+    "avg": 10.345,
+    "line_close": 10.138,
+    "n": 264
+   },
+   "2020": {
+    "line": 9.898,
+    "model": 9.882,
+    "anchor": 9.875,
+    "ridge": 9.89,
+    "gbm": 9.89,
+    "avg": 9.89,
+    "line_close": 9.839,
+    "n": 264
+   }
+  },
+  "method": "ridge",
+  "use": false,
+  "gain_pts": 0.0039,
+  "gain_pct": 0.04,
+  "vs_close": {
+   "t": -2.0,
+   "closed_gap_pct": 3.4
+  },
+  "win_prob": {
+   "n": 1054,
+   "logloss": {
+    "market": 0.60408,
+    "line": 0.61596,
+    "stack": 0.61465
+   },
+   "beats_market": false,
+   "t_vs_market": -2.72
+  },
+  "feats": [
+   "e",
+   "e_go",
+   "e_kal",
+   "e_elo",
+   "e_mkt",
+   "rest_diff",
+   "div",
+   "line_v",
+   "indoor",
+   "primetime"
+  ],
+  "at": "open",
+  "passes_stack_bar": false,
+  "info_set": "open-time model only (ridge_open, Kalman, Elo without this game's QB, market ratings from past closes); disabled",
+  "disabled": "History has no NFL openers after 2021, and with open-time inputs only the NFL opener fits are not significant (the published ones held the closing line), so they cannot be tested on 2022-26. Not used.",
+  "certify_verdict": "tie"
+ },
+ "nfl_total_open": {
+  "sport": "nfl",
+  "market": "total",
+  "n": 1349,
+  "seasons": 5,
+  "mae": {
+   "line": 10.8936,
+   "model": 10.9614,
+   "anchor": 10.8652,
+   "ridge": 10.8673,
+   "gbm": 10.8673,
+   "avg": 10.8673,
+   "line_close": 10.7572
+  },
+  "t_vs_line": {
+   "ridge": 1.55,
+   "gbm": 1.55,
+   "avg": 1.55,
+   "anchor": 1.58
+  },
+  "seasons_better": {
+   "ridge": 4,
+   "gbm": 4,
+   "avg": 4,
+   "anchor": 5
+  },
+  "by_season": {
+   "2017": {
+    "line": 11.472,
+    "model": 11.415,
+    "anchor": 11.441,
+    "ridge": 11.432,
+    "gbm": 11.432,
+    "avg": 11.432,
+    "line_close": 11.237,
+    "n": 266
+   },
+   "2018": {
+    "line": 10.981,
+    "model": 10.882,
+    "anchor": 10.921,
+    "ridge": 10.922,
+    "gbm": 10.922,
+    "avg": 10.922,
+    "line_close": 10.719,
+    "n": 267
+   },
+   "2019": {
+    "line": 10.673,
+    "model": 10.742,
+    "anchor": 10.643,
+    "ridge": 10.674,
+    "gbm": 10.674,
+    "avg": 10.674,
+    "line_close": 10.752,
+    "n": 266
+   },
+   "2020": {
+    "line": 10.455,
+    "model": 10.859,
+    "anchor": 10.444,
+    "ridge": 10.454,
+    "gbm": 10.454,
+    "avg": 10.454,
+    "line_close": 10.264,
+    "n": 267
+   },
+   "2021": {
+    "line": 10.889,
+    "model": 10.912,
+    "anchor": 10.877,
+    "ridge": 10.857,
+    "gbm": 10.857,
+    "avg": 10.857,
+    "line_close": 10.813,
+    "n": 283
+   }
+  },
+  "method": "anchor",
+  "use": false,
+  "gain_pts": 0.0285,
+  "gain_pct": 0.26,
+  "vs_close": {
+   "t": -2.12,
+   "closed_gap_pct": 20.9
+  },
+  "feats": [
+   "e",
+   "e_go",
+   "e_mkt",
+   "line_v",
+   "indoor",
+   "primetime"
+  ],
+  "at": "open",
+  "passes_stack_bar": true,
+  "info_set": "open-time model only (ridge_open, Kalman, Elo without this game's QB, market ratings from past closes); disabled",
+  "disabled": "History has no NFL openers after 2021, and with open-time inputs only the NFL opener fits are not significant (the published ones held the closing line), so they cannot be tested on 2022-26. Not used.",
+  "certify_verdict": "tie"
+ }
+}

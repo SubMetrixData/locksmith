@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" color="#D9A441" role="img" aria-label="Locksmith">
+  <title>Locksmith</title>
+  <!-- Keyhole tile (brand Direction A, reports/overnight/brand_logo_1.svg). One path, even-odd fill: the keyhole is a true hole.
+       Fill is currentColor; the default colour is dark-theme brass. In-app it is inlined and coloured with var(--brand). -->
+  <style>@media (prefers-color-scheme: light){svg{color:#8A5A0B}}</style>
+  <path fill="currentColor" fill-rule="evenodd" d="M16 2h32a14 14 0 0 1 14 14v32a14 14 0 0 1-14 14H16A14 14 0 0 1 2 48V16A14 14 0 0 1 16 2Z M27 34.66A10 10 0 1 1 37 34.66L40 48H24Z"/>
+</svg>
