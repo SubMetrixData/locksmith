@@ -1,0 +1,438 @@
+/* Locksmith :: visual refinement layer (loaded after brand.css, overrides it).
+   Same information, same four screens, same Brass-and-Ink vocabulary -- what changes is how it reads:
+     depth      real surfaces and hairlines instead of near-black on near-black
+     hierarchy  one headline number per block, everything else stepped down
+     rhythm     one scale for type, one for spacing, one radius family
+     scanning   a colour per sport, a bar for every gap, a price you can read across the room
+   Every colour is a token redefined here; nothing below hard-codes a hex outside the two :root blocks. */
+
+/* ---------------------------------------------------------------- 1. ground, ink, accents */
+:root, :root[data-theme="dark"] {
+  --bg: #0B0D11;
+  --bg-2: #0E1116;
+  --surface: #14181F;
+  --surface-2: #1A1F28;
+  --surface-3: #212733;
+  --line: #262C38;
+  --line-soft: #1C2029;
+  --ink: #F3F5F8;
+  --ink-2: #AEB7C4;
+  --muted: #7C8696;
+  --hover: #1D222C;
+
+  --brand: #E0AC4C;
+  --brand-2: #C98F2E;
+  --brand-ink: #1A1205;
+  --brand-soft: rgba(224, 172, 76, .13);
+  --brand-line: rgba(224, 172, 76, .34);
+
+  --win: #4ED29A;
+  --win-ink: #052016;
+  --win-soft: rgba(78, 210, 154, .13);
+  --win-line: rgba(78, 210, 154, .32);
+  --loss: #F2847A;
+  --loss-soft: rgba(242, 132, 122, .13);
+  --loss-line: rgba(242, 132, 122, .32);
+  --info: #8FB2F5;
+  --info-soft: rgba(143, 178, 245, .13);
+
+  --elev-1: 0 1px 2px rgba(0, 0, 0, .40);
+  --elev-2: 0 1px 2px rgba(0, 0, 0, .40), 0 10px 26px -16px rgba(0, 0, 0, .85);
+  --elev-3: 0 1px 2px rgba(0, 0, 0, .45), 0 20px 44px -22px rgba(0, 0, 0, .95);
+  --lip: inset 0 1px 0 rgba(255, 255, 255, .045);
+  --ring: 0 0 0 3px rgba(224, 172, 76, .32);
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: #F7F5F0;
+  --bg-2: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F2EFE8;
+  --surface-3: #E9E4D9;
+  --line: #E0DACD;
+  --line-soft: #EDE9DF;
+  --ink: #15181D;
+  --ink-2: #474E59;
+  --muted: #6B7280;
+  --hover: #F2EFE8;
+
+  --brand: #8A5A0B;
+  --brand-2: #6E4708;
+  --brand-ink: #FFFFFF;
+  --brand-soft: rgba(138, 90, 11, .09);
+  --brand-line: rgba(138, 90, 11, .28);
+
+  --win: #10774A;
+  --win-ink: #FFFFFF;
+  --win-soft: rgba(16, 119, 74, .09);
+  --win-line: rgba(16, 119, 74, .26);
+  --loss: #AD3528;
+  --loss-soft: rgba(173, 53, 40, .08);
+  --loss-line: rgba(173, 53, 40, .24);
+  --info: #27509F;
+  --info-soft: rgba(39, 80, 159, .08);
+
+  --elev-1: 0 1px 2px rgba(28, 24, 14, .06);
+  --elev-2: 0 1px 2px rgba(28, 24, 14, .07), 0 10px 24px -18px rgba(28, 24, 14, .35);
+  --elev-3: 0 1px 3px rgba(28, 24, 14, .08), 0 22px 46px -26px rgba(28, 24, 14, .45);
+  --lip: inset 0 1px 0 rgba(255, 255, 255, .7);
+  --ring: 0 0 0 3px rgba(138, 90, 11, .22);
+  color-scheme: light;
+}
+
+/* one accent per sport: the dot on a game header and the tint on a sport chip */
+:root {
+  --sp-nfl: #6FA8DC; --sp-cfb: #C98BE8; --sp-nba: #F0944E; --sp-wnba: #F0719C; --sp-nhl: #5FC9D8; --sp-ufc: #E8655F;
+  --wrap: 1180px; --gut: 32px;
+  --r-sm: 9px; --r-md: 12px; --r-lg: 16px; --r-xl: 20px;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font: 15.5px/1.6 var(--body);
+  background:
+    radial-gradient(1100px 560px at 50% -260px, color-mix(in srgb, var(--brand) 7%, transparent), transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+}
+::selection { background: var(--brand-soft); }
+*:focus-visible { outline: none; box-shadow: var(--ring); border-radius: var(--r-sm); }
+
+/* ---------------------------------------------------------------- 2. header */
+.hdr {
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: saturate(150%) blur(14px);
+  -webkit-backdrop-filter: saturate(150%) blur(14px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.hdr-in { height: 66px; gap: 26px; }
+.logo svg {
+  width: 34px; height: 34px; padding: 6px; box-sizing: border-box;
+  border-radius: 10px; color: var(--brand-ink);
+  background: linear-gradient(160deg, var(--brand), var(--brand-2));
+  box-shadow: var(--elev-1), var(--lip);
+}
+.logo b { font-size: 19.5px; letter-spacing: -.02em; }
+.logo small { font-size: 11.5px; letter-spacing: .01em; color: var(--muted); }
+#nav { gap: 2px; }
+#nav button { padding: 8px 15px; border-radius: 999px; font-size: 15px; transition: background .14s, color .14s; }
+#nav button.on { background: var(--surface-2); color: var(--ink); box-shadow: var(--lip); }
+#nav button.on::after { display: none; }
+#nav button.on svg { color: var(--brand); }
+.hdr #theme { width: 36px; height: 36px; border-radius: 10px; background: var(--surface); box-shadow: var(--lip); }
+.livepill { box-shadow: var(--lip); padding: 6px 12px; }
+.livepill i { box-shadow: 0 0 0 3px var(--loss-soft); animation: lk-pulse 1.8s ease-in-out infinite; }
+@keyframes lk-pulse { 0%, 100% { opacity: 1 } 50% { opacity: .35 } }
+
+/* ---------------------------------------------------------------- 3. page frame */
+main .top { padding: 34px 0 6px; align-items: flex-end; }
+main .top h1 { font: 700 38px/1.05 var(--body); letter-spacing: -.028em; }
+main .top .eyebrow {
+  font: 600 12px/1.3 var(--body); letter-spacing: .07em; text-transform: uppercase; color: var(--brand);
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+}
+main .top .eyebrow::before {
+  content: ""; display: block; width: 16px; height: 2px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--brand), transparent);
+}
+.sportbar { margin: 18px 0 4px; gap: 7px; }
+.view { gap: 20px; padding-top: 14px; }
+.lk-day {
+  font: 600 12px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+  margin: 16px 2px 9px; display: flex; align-items: center; gap: 10px;
+}
+.lk-day::after { content: ""; flex: 1; height: 1px; background: var(--line-soft); }
+.lk-lead { font: 400 20px/1.5 var(--body); color: var(--ink-2); max-width: 66ch; letter-spacing: -.005em; }
+.lk-lead b { color: var(--ink); font-weight: 700; }
+.lk-h { font: 700 19px/1.3 var(--body); letter-spacing: -.015em; margin-top: 10px; }
+.disclosure { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line-soft); font-size: 12.5px; }
+
+/* ---------------------------------------------------------------- 4. the surfaces everything sits on */
+.lk-list, .ob-game, .rc-head, .lk-note, .lk-empty, .nolocks, .lk-tabs {
+  border-radius: var(--r-lg);
+  box-shadow: var(--elev-2), var(--lip);
+}
+.lk-list, .ob-game { border-color: var(--line); background: var(--surface); }
+.lk-empty { padding: 44px 20px; font-size: 15px; }
+.lk-note { border-radius: var(--r-md); box-shadow: var(--elev-1); padding: 12px 16px; }
+
+/* chips: a pill you can hit, with a clear on-state */
+.chip {
+  padding: 7px 15px; font-size: 13.5px; font-weight: 600; border-radius: 999px;
+  background: var(--surface); box-shadow: var(--lip); transition: background .14s, color .14s, border-color .14s;
+}
+.chip:hover { background: var(--hover); border-color: var(--muted); }
+.chip.on {
+  background: linear-gradient(170deg, var(--brand), var(--brand-2));
+  border-color: transparent; color: var(--brand-ink); box-shadow: var(--elev-1);
+}
+.chip.on .n { opacity: .8; }
+.lk-chips { gap: 8px; }
+
+.tag { font-size: 11.5px; font-weight: 700; letter-spacing: .02em; padding: 3px 9px; border-radius: 7px; }
+.tag.t-bet { box-shadow: 0 0 0 1px var(--brand-line), 0 2px 8px -4px var(--brand); }
+.bdg { font-size: 11.5px; padding: 3px 10px; }
+.bdg.b-beats { box-shadow: 0 2px 8px -4px var(--win); }
+
+/* ---------------------------------------------------------------- 5. one line per item */
+.lk-line, .lk-game, .rc-row, button.rc-row, .rc-tk, .rc-cell { border-top-color: var(--line-soft); }
+.lk-line { padding: 15px 18px; gap: 16px; }
+.lk-line:hover, .lk-game:hover, button.rc-row:hover { background: var(--hover); }
+.ll-time { font-size: 12.5px; letter-spacing: .01em; color: var(--muted); }
+.ll-bet { font-size: 17px; letter-spacing: -.012em; }
+.ll-px { font-size: 13.5px; color: var(--ink-2); }
+.ll-val b { font-size: 17px; letter-spacing: -.01em; }
+.ll-stake {
+  font-size: 13.5px; font-weight: 700; padding: 5px 11px; margin-left: 12px; border-left: 0;
+  border-radius: 999px; background: var(--surface-2); box-shadow: var(--lip); white-space: nowrap;
+}
+.lk-line:hover .ll-chev { color: var(--ink-2); }
+.ll-detail { padding-left: 112px; font-size: 14.5px; }
+
+/* the night's lead bet, when there is one: a card, not a row */
+.lk-hero {
+  position: relative; overflow: hidden;
+  border: 1px solid var(--brand-line); border-radius: var(--r-xl);
+  background:
+    radial-gradient(640px 220px at 0% 0%, var(--brand-soft), transparent 68%),
+    var(--surface);
+  box-shadow: var(--elev-3), var(--lip);
+  padding: 22px 24px; display: grid; gap: 14px;
+}
+.lk-hero::before {
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 3px;
+  background: linear-gradient(180deg, var(--brand), transparent);
+}
+.lk-hero .lh-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.lk-hero .lh-eyebrow {
+  font: 700 11.5px/1 var(--body); letter-spacing: .09em; text-transform: uppercase; color: var(--brand);
+}
+.lk-hero .lh-bet {
+  font: 700 clamp(26px, 3.4vw, 34px)/1.12 var(--body); letter-spacing: -.028em; color: var(--ink); margin: 0;
+}
+.lk-hero .lh-bet .px { font: 600 .62em var(--mono); color: var(--brand); margin-left: 10px; letter-spacing: 0; }
+.lk-hero .lh-game { font-size: 15px; color: var(--ink-2); margin: 0; }
+.lk-hero .lh-stats { display: flex; flex-wrap: wrap; gap: 10px 28px; padding-top: 4px; border-top: 1px solid var(--line-soft); margin-top: 2px; }
+.lk-hero .lh-stat { display: grid; gap: 2px; }
+.lk-hero .lh-stat small { font: 600 11px/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.lk-hero .lh-stat b { font: 600 19px/1.15 var(--mono); color: var(--ink); letter-spacing: -.01em; }
+
+/* ---------------------------------------------------------------- 6. the odds board */
+.ob-list { gap: 12px; }
+.ob-game { transition: border-color .14s, box-shadow .14s; }
+.ob-game:hover { border-color: var(--surface-3); box-shadow: var(--elev-3), var(--lip); }
+.ob-head {
+  padding: 11px 18px; gap: 13px; border-bottom-color: var(--line-soft);
+  background: linear-gradient(180deg, var(--surface-2), color-mix(in srgb, var(--surface-2) 55%, var(--surface)));
+}
+.ob-sp {
+  display: inline-flex; align-items: center; gap: 7px; font-size: 11.5px; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2);
+}
+.ob-sp::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.ob-game[data-sp="nfl"] .ob-sp::before { background: var(--sp-nfl) }
+.ob-game[data-sp="cfb"] .ob-sp::before { background: var(--sp-cfb) }
+.ob-game[data-sp="nba"] .ob-sp::before { background: var(--sp-nba) }
+.ob-game[data-sp="wnba"] .ob-sp::before { background: var(--sp-wnba) }
+.ob-game[data-sp="nhl"] .ob-sp::before { background: var(--sp-nhl) }
+.ob-game[data-sp="ufc"] .ob-sp::before { background: var(--sp-ufc) }
+.ob-score { font-size: 14px; color: var(--ink); }
+.ob-score small { color: var(--muted); }
+
+.ob-hd > span {
+  padding: 9px 12px 5px; font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase;
+  color: var(--muted); background: var(--surface);
+}
+.ob-row > * { padding: 11px 12px; border-top-color: var(--line-soft); }
+.ob-row.fav { background: color-mix(in srgb, var(--surface-2) 45%, transparent); }
+.ob-team { font-size: 15.5px; letter-spacing: -.01em; }
+.ob-row.fav .ob-team b { font-weight: 700; }
+.ob-px { font-size: 15px; letter-spacing: -.01em; }
+.ob-big { font-size: 19px; letter-spacing: -.02em; }
+.ob-bet { position: relative; }
+.ob-bet .ob-px { color: var(--brand); }
+
+/* Vegas vs Locksmith, as a bar you read in one glance instead of two percentages you have to subtract */
+.ob-pp { display: grid; gap: 3px; width: 100%; max-width: 128px; }
+.ob-bar {
+  position: relative; height: 5px; border-radius: 3px; background: var(--surface-3); overflow: visible;
+}
+.ob-bar i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; background: var(--muted); }
+.ob-bar u {
+  position: absolute; top: -3px; bottom: -3px; width: 2px; border-radius: 2px; background: var(--ink);
+  transform: translateX(-1px);
+}
+.ob-bar.up i { background: linear-gradient(90deg, var(--win-line), var(--win)) }
+.ob-bar.dn i { background: linear-gradient(90deg, var(--loss-line), var(--loss)) }
+.ob-pp .lab { display: flex; justify-content: space-between; gap: 6px; font: 600 10.5px var(--mono); color: var(--muted); }
+.ob-pp .lab .l { color: var(--ink-2) }
+.ob-pp .lab .l.up { color: var(--win) } .ob-pp .lab .l.dn { color: var(--loss) }
+.ob-gap {
+  margin-top: 3px; font-size: 10.5px; font-weight: 700; border-style: solid; border-radius: 999px;
+  padding: 1px 7px; border-color: var(--line); color: var(--ink-2);
+}
+.ob-gap.up { border-color: var(--win-line); color: var(--win) }
+.ob-gap.dn { border-color: var(--loss-line); color: var(--loss) }
+.ob-key { font-size: 12.5px; padding: 12px 16px; border: 1px solid var(--line-soft); border-radius: var(--r-md); background: color-mix(in srgb, var(--surface) 55%, transparent); }
+
+/* ---------------------------------------------------------------- 7. Record */
+.lk-tabs { padding: 4px; border-radius: 999px; }
+.lk-tabs button { border-radius: 999px; padding: 8px 18px; }
+.lk-tabs button.on { background: linear-gradient(170deg, var(--brand), var(--brand-2)); color: var(--brand-ink); }
+.rc-head { padding: 24px 26px; gap: 14px; }
+.rc-big { font-size: 44px; line-height: 1.02; letter-spacing: -.035em; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.rc-big small { font-size: 14px; }
+.rc-head p { font-size: 15px; color: var(--ink-2); max-width: 82ch; }
+.rc-row { padding: 13px 18px; }
+.rc-row .rc-n { font-size: 15px; }
+.rc-row .rc-usd { font-size: 14.5px; }
+
+/* the headline split into tiles, when a page asks for it */
+.rc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.rc-tile {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
+  padding: 15px 17px; display: grid; gap: 5px; box-shadow: var(--elev-1), var(--lip);
+}
+.rc-tile small { font: 600 11px/1.2 var(--body); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.rc-tile b { font: 600 26px/1.1 var(--mono); letter-spacing: -.025em; color: var(--ink); }
+.rc-tile span { font-size: 12.5px; color: var(--muted); }
+
+/* ---------------------------------------------------------------- 8. More */
+.more-list { gap: 12px; }
+.more-list > * { border-radius: var(--r-md); box-shadow: var(--elev-1), var(--lip); }
+
+/* ---------------------------------------------------------------- 9. tables inside game pages (app.css era) */
+.card, .panel { border-radius: var(--r-lg) !important; box-shadow: var(--elev-2), var(--lip); }
+table th { letter-spacing: .05em; text-transform: uppercase; font-size: 11px; color: var(--muted); }
+
+/* ---------------------------------------------------------------- 10. narrow screens */
+@media (max-width: 980px) {
+  :root { --gut: 20px; }
+  main .top { padding-top: 26px; }
+  main .top h1 { font-size: 32px; }
+  .lk-lead { font-size: 18px; }
+  .rc-big { font-size: 36px; }
+}
+@media (max-width: 760px) {
+  main .top h1 { font-size: 28px; }
+  .lk-hero { padding: 18px; border-radius: var(--r-lg); }
+  .lk-hero .lh-stats { gap: 10px 18px; }
+  .ll-detail { padding-left: 18px; }
+  .ob-pp { max-width: none; }
+  .ob-hd > span { font-size: 9.5px; }
+  .rc-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------------------------------------------------------------- 11. Games: one line per game (the default) */
+.gl-list { overflow: hidden; }
+.gl-row {
+  display: grid; grid-template-columns: 74px minmax(150px, 1.25fr) 168px minmax(0, 1fr) 54px 108px 16px;
+  gap: 16px; align-items: center; width: 100%; padding: 12px 18px; margin: 0;
+  border: 0; border-top: 1px solid var(--line-soft); background: none; color: inherit; font: inherit;
+  text-align: left; cursor: pointer; position: relative;
+}
+.gl-list > .gl-row:first-child { border-top: 0; }
+.gl-row:hover { background: var(--hover); }
+.gl-row::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: transparent; }
+.gl-row[data-sp="nfl"]::before { background: var(--sp-nfl) } .gl-row[data-sp="cfb"]::before { background: var(--sp-cfb) }
+.gl-row[data-sp="nba"]::before { background: var(--sp-nba) } .gl-row[data-sp="wnba"]::before { background: var(--sp-wnba) }
+.gl-row[data-sp="nhl"]::before { background: var(--sp-nhl) } .gl-row[data-sp="ufc"]::before { background: var(--sp-ufc) }
+.gl-row::before { opacity: .55 }
+.gl-row:hover::before { opacity: 1 }
+
+.gl-teams { display: grid; gap: 2px; min-width: 0; }
+.gl-teams .ob-sp { font-size: 10px; letter-spacing: .08em; color: var(--muted); }
+.gl-teams .ob-sp::before { width: 6px; height: 6px; }
+.gl-row[data-sp="nfl"] .ob-sp::before { background: var(--sp-nfl) } .gl-row[data-sp="cfb"] .ob-sp::before { background: var(--sp-cfb) }
+.gl-row[data-sp="nba"] .ob-sp::before { background: var(--sp-nba) } .gl-row[data-sp="wnba"] .ob-sp::before { background: var(--sp-wnba) }
+.gl-row[data-sp="nhl"] .ob-sp::before { background: var(--sp-nhl) } .gl-row[data-sp="ufc"] .ob-sp::before { background: var(--sp-ufc) }
+.gl-match { font: 600 15.5px/1.25 var(--body); color: var(--ink); letter-spacing: -.012em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.gl-win { display: grid; gap: 5px; min-width: 0; }
+.gl-wtop { font: 500 13.5px/1.2 var(--body); color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gl-wtop b { font: 600 15.5px var(--mono); color: var(--ink); margin-right: 5px; letter-spacing: -.01em; }
+.gl-win.gl-na { font-size: 13px; color: var(--muted); }
+.gl-sc { font: 500 13.5px var(--mono); color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gl-sc small { font: 500 11px var(--body); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+.gl-gap { display: flex; justify-content: flex-end; }
+.gl-gap .ob-gap { margin: 0; }
+.gl-row .gl-tag { justify-content: flex-end; }
+
+/* the win cell on the full board: label under the bar, not beside the number */
+.ob-c.ob-win { gap: 4px; width: 100%; }
+.ob-c.ob-win .ob-pp { display: flex; flex-direction: row; gap: 8px; max-width: none; font: 500 11px var(--mono); color: var(--muted); }
+.ob-c.ob-win .ob-pp .l { color: var(--ink-2); }
+.ob-row > * { padding: 9px 12px; }
+.ob-pp { max-width: 118px; }
+
+@media (max-width: 1020px) {
+  .gl-row { grid-template-columns: 64px minmax(120px, 1.2fr) 140px 54px 96px 14px; gap: 12px; }
+  .gl-row .gl-sc { display: none; }
+}
+@media (max-width: 760px) {
+  .gl-row { grid-template-columns: 58px minmax(0, 1fr) 46px 16px; gap: 10px; padding: 11px 14px 12px; align-items: start; }
+  .gl-row .gl-win { grid-column: 2 / 3; }
+  .gl-row .gl-tag { grid-column: 1 / -1; justify-content: flex-start; padding-left: 68px; }
+  .gl-row .gl-sc { display: none; }
+}
+.ob-gap em { font-style: normal; font-weight: 600; opacity: .72; margin-left: 4px; letter-spacing: .02em; }
+.gl-gap .ob-gap { font-size: 11px; padding: 2px 9px; }
+.gl-row { grid-template-columns: 74px minmax(150px, 1.25fr) 168px minmax(0, 1fr) 96px 132px 16px; }
+@media (max-width: 1020px) { .gl-row { grid-template-columns: 64px minmax(120px, 1.2fr) 140px 92px 112px 14px; } }
+@media (max-width: 760px)  { .gl-row { grid-template-columns: 58px minmax(0, 1fr) 90px 16px; } }
+
+/* the hero's folded detail reuses the row detail, unindented */
+.lk-hero .lh-foot { margin-top: 2px; }
+.lk-hero .ll-detail { padding: 0; font-size: 15px; gap: 8px; }
+.lk-hero .ll-detail p { color: var(--ink-2); }
+.lk-hero .ll-detail .lk-chips { margin-top: 4px; }
+.lk-glance { margin-top: 4px; }
+.lk-glance .rc-tile b { font-size: 24px; }
+.lk-glance .rc-tile span { line-height: 1.35; }
+
+/* Record: the headline, then the four numbers, then the prose behind a fold */
+.rc-head { padding: 22px 26px 20px; }
+.rc-head p { margin: 0; }
+.rc-how { margin-top: -6px; }
+.rc-how > summary { font-size: 14px; }
+.rc-how-b { margin-top: 10px; padding: 16px 18px; border: 1px solid var(--line-soft); border-radius: var(--r-md); background: var(--surface); display: grid; gap: 10px; }
+.rc-how-b p { margin: 0; font-size: 14px; line-height: 1.6; color: var(--ink-2); }
+.rc-how-b p b { color: var(--ink); }
+.rc-tile b.pos { color: var(--win) } .rc-tile b.neg { color: var(--loss) }
+
+/* ---------------------------------------------------------------- 12. phone: two rows per game, nothing clipped */
+@media (max-width: 760px) {
+  .lk-chips, .sportbar { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-left: calc(var(--gut) * -1); margin-right: calc(var(--gut) * -1); padding-left: var(--gut); padding-right: var(--gut); }
+  .lk-chips::-webkit-scrollbar, .sportbar::-webkit-scrollbar { display: none; }
+  .lk-chips > *, .sportbar > * { flex: none; }
+  main { padding-bottom: 86px; }
+
+  .gl-row {
+    display: grid; grid-template-areas: "time teams teams" "bar bar tag"; grid-template-columns: 62px minmax(0, 1fr) auto;
+    gap: 7px 10px; padding: 12px 14px 13px; align-items: center;
+  }
+  .gl-row .ll-time { grid-area: time; align-self: start; padding-top: 2px; }
+  .gl-row .gl-teams { grid-area: teams; }
+  .gl-row .gl-teams .ob-sp { font-size: 9.5px; }
+  .gl-row .gl-match { font-size: 15px; white-space: normal; }
+  .gl-row .gl-win { grid-area: bar; display: grid; grid-template-columns: auto minmax(60px, 1fr); align-items: center; gap: 10px; }
+  .gl-row .gl-win .gl-wtop { font-size: 13px; }
+  .gl-row .gl-gap { display: none; }
+  .gl-row .gl-tag { grid-area: tag; justify-content: flex-end; }
+  .gl-row .gl-go, .gl-row .gl-sc { display: none; }
+  .gl-row .gl-win.gl-na { grid-template-columns: 1fr; }
+
+  .rc-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rc-big { font-size: 30px; gap: 8px; }
+  .lk-hero .lh-bet { font-size: 25px; }
+  .ob-key { font-size: 12px; padding: 11px 13px; }
+}
+.gl-teams { grid-template-columns: minmax(0, 1fr); grid-auto-flow: row; justify-items: start; }
+.gl-teams > * { grid-column: 1; max-width: 100%; }
+/* the win cell keeps the same rail as the market cells */
+.ob-c.ob-win .ob-pp { display: grid; grid-template-columns: minmax(0, 1fr); gap: 3px; max-width: 118px; }
+.ob-c.ob-win .ob-pp .lab { display: flex; justify-content: space-between; }
+/* a sport with nothing in the current window keeps its chip, dimmed */
+.chip.chip-soon { color: var(--muted); border-style: dashed; }
+.chip.chip-soon:hover { color: var(--ink-2); }
+.chip.chip-soon.on { color: var(--brand-ink); border-style: solid; }

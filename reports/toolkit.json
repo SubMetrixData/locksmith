@@ -1,0 +1,6797 @@
+{
+ "generated": "2026-11-15 08:30",
+ "generated_utc": "2026-11-15T13:30:09+00:00",
+ "source": {
+  "prices": "Action Network, every book's current price (fetched 08:30)",
+  "prices_at": "2026-11-15 08:30",
+  "games": 28,
+  "n_quotes": 596,
+  "books": [
+   "BetMGM",
+   "BetRivers",
+   "Caesars",
+   "DraftKings",
+   "FanDuel",
+   "Fanatics",
+   "bet365"
+  ],
+  "by_sport": {
+   "cfb": 1,
+   "nba": 9,
+   "nfl": 13,
+   "nhl": 5
+  },
+  "age_h": 0.0,
+  "tickets": 4,
+  "captured_openers": 1194
+ },
+ "arbs": [
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "total",
+   "kind": "same line",
+   "profit_pct": 0.71,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 6",
+     "book": "BetRivers",
+     "price": 108.0,
+     "stake_share": 0.4842
+    },
+    {
+     "lab": "Under 6",
+     "book": "BetMGM",
+     "price": -105.0,
+     "stake_share": 0.5158
+    }
+   ]
+  }
+ ],
+ "middles": [
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "kind": "books",
+   "no_lose": false,
+   "lo": 1.5,
+   "hi": 2.5,
+   "window": [
+    2,
+    2
+   ],
+   "p_middle": 0.1955,
+   "p_push": 0.0,
+   "ev_per_100": 4.67,
+   "hit_per_100": 75.1,
+   "miss_per_100": -12.45,
+   "push_per_100": null,
+   "legs": [
+    {
+     "lab": "VGK -1.5",
+     "book": "DraftKings",
+     "price": -148.0,
+     "stake_share": 0.5225
+    },
+    {
+     "lab": "VAN +2.5",
+     "book": "BetMGM",
+     "price": -120.0,
+     "stake_share": 0.4775
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "total",
+   "kind": "books",
+   "no_lose": false,
+   "lo": 6.0,
+   "hi": 6.5,
+   "window": null,
+   "p_middle": 0.0,
+   "p_push": 0.1138,
+   "ev_per_100": 0.48,
+   "hit_per_100": null,
+   "miss_per_100": -4.74,
+   "push_per_100": 41.06,
+   "legs": [
+    {
+     "lab": "Over 6",
+     "book": "BetRivers",
+     "price": 108.0,
+     "stake_share": 0.458
+    },
+    {
+     "lab": "Under 6.5",
+     "book": "bet365",
+     "price": -132.0,
+     "stake_share": 0.542
+    }
+   ]
+  }
+ ],
+ "own_middles": [
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 38.0,
+   "hi": 48.5,
+   "window": [
+    39,
+    48
+   ],
+   "p_middle": 0.2692,
+   "p_push": 0.0245,
+   "held": {
+    "lab": "Under 48.5",
+    "price": -115.0,
+    "book": "bet365",
+    "since": "2026-11-03 19:48:09.879565+00:00"
+   },
+   "add": {
+    "lab": "Over 38",
+    "book": "BetMGM",
+    "price": -110.0,
+    "stake_per_100_held": 97.93
+   },
+   "add_ev_per_100_held": -4.04,
+   "worst_per_100_held": -10.97,
+   "hit_per_100_held": 175.98
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 1.5,
+   "hi": 2.5,
+   "window": [
+    2,
+    2
+   ],
+   "p_middle": 0.1955,
+   "p_push": 0.0,
+   "held": {
+    "lab": "VGK -1.5",
+    "price": -168.0,
+    "book": "FanDuel",
+    "since": "2026-11-14 18:17:42.768076+00:00"
+   },
+   "add": {
+    "lab": "VAN +2.5",
+    "book": "BetMGM",
+    "price": -120.0,
+    "stake_per_100_held": 87.01
+   },
+   "add_ev_per_100_held": -2.07,
+   "worst_per_100_held": -27.49,
+   "hit_per_100_held": 132.03
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SEA_LV",
+   "game": "SEA at LV",
+   "start": "2026-11-15T21:05Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 40.5,
+   "hi": 45.5,
+   "window": [
+    41,
+    45
+   ],
+   "p_middle": 0.1561,
+   "p_push": 0.0,
+   "held": {
+    "lab": "Under 45.5",
+    "price": -115.0,
+    "book": "bet365",
+    "since": "2026-11-03 19:48:14.208514+00:00"
+   },
+   "add": {
+    "lab": "Over 40.5",
+    "book": "DraftKings",
+    "price": -108.0,
+    "stake_per_100_held": 97.07
+   },
+   "add_ev_per_100_held": -3.6,
+   "worst_per_100_held": -10.12,
+   "hit_per_100_held": 176.84
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIA_IND",
+   "game": "MIA at IND",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 37.5,
+   "hi": 42.5,
+   "window": [
+    38,
+    42
+   ],
+   "p_middle": 0.1288,
+   "p_push": 0.0,
+   "held": {
+    "lab": "Under 42.5",
+    "price": -110.0,
+    "book": "BetMGM",
+    "since": "2026-11-08 22:47:33.271215+00:00"
+   },
+   "add": {
+    "lab": "Over 37.5",
+    "book": "bet365",
+    "price": -107.0,
+    "stake_per_100_held": 98.68
+   },
+   "add_ev_per_100_held": -3.23,
+   "worst_per_100_held": -7.77,
+   "hit_per_100_held": 183.14
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIA_IND",
+   "game": "MIA at IND",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 2.5,
+   "hi": 4.5,
+   "window": [
+    3,
+    4
+   ],
+   "p_middle": 0.1151,
+   "p_push": 0.0,
+   "held": {
+    "lab": "IND -2.5",
+    "price": -110.0,
+    "book": "BetMGM",
+    "since": "2026-11-08 22:47:33.271215+00:00"
+   },
+   "add": {
+    "lab": "MIA +4.5",
+    "book": "DraftKings",
+    "price": -110.0,
+    "stake_per_100_held": 100.0
+   },
+   "add_ev_per_100_held": -4.13,
+   "worst_per_100_held": -9.09,
+   "hit_per_100_held": 181.82
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LAC_BAL",
+   "game": "LAC at BAL",
+   "start": "2026-11-17T01:15Z",
+   "mk": "spread",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 2.5,
+   "hi": 4.5,
+   "window": [
+    3,
+    4
+   ],
+   "p_middle": 0.1151,
+   "p_push": 0.0,
+   "held": {
+    "lab": "BAL -2.5",
+    "price": -112.0,
+    "book": "BetMGM",
+    "since": "2026-11-08 22:58:33.817797+00:00"
+   },
+   "add": {
+    "lab": "LAC +4.5",
+    "book": "BetRivers",
+    "price": -109.0,
+    "stake_per_100_held": 98.72
+   },
+   "add_ev_per_100_held": -3.26,
+   "worst_per_100_held": -9.43,
+   "hit_per_100_held": 179.85
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 38.5,
+   "hi": 41.5,
+   "window": [
+    39,
+    41
+   ],
+   "p_middle": 0.0992,
+   "p_push": 0.0,
+   "held": {
+    "lab": "Over 38.5",
+    "price": -110.0,
+    "book": "BetMGM",
+    "since": "2026-11-08 22:47:33.271215+00:00"
+   },
+   "add": {
+    "lab": "Under 41.5",
+    "book": "FanDuel",
+    "price": -120.0,
+    "stake_per_100_held": 104.13
+   },
+   "add_ev_per_100_held": -4.53,
+   "worst_per_100_held": -13.22,
+   "hit_per_100_held": 177.69
+  },
+  {
+   "sport": "cfb",
+   "game_id": "401856887",
+   "game": "MISS at OU",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": -2.5,
+   "hi": 3.0,
+   "window": [
+    -2,
+    2
+   ],
+   "p_middle": 0.0933,
+   "p_push": 0.0678,
+   "held": {
+    "lab": "OU +2.5",
+    "price": -105.0,
+    "book": "BetMGM",
+    "since": "2026-11-08 18:37:00.644147+00:00"
+   },
+   "add": {
+    "lab": "MISS +3",
+    "book": "BetMGM",
+    "price": -125.0,
+    "stake_per_100_held": 108.47
+   },
+   "add_ev_per_100_held": -7.55,
+   "worst_per_100_held": -13.23,
+   "hit_per_100_held": 182.01
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "spread",
+   "kind": "opener",
+   "no_lose": true,
+   "lo": -9.5,
+   "hi": -7.5,
+   "window": [
+    -9,
+    -8
+   ],
+   "p_middle": 0.0573,
+   "p_push": 0.0,
+   "held": {
+    "lab": "LA -7.5",
+    "price": 100.0,
+    "book": "bet365",
+    "since": "2026-11-03 19:48:09.789661+00:00"
+   },
+   "add": {
+    "lab": "ARI +9.5",
+    "book": "BetRivers",
+    "price": -100.0,
+    "stake_per_100_held": 100.0
+   },
+   "add_ev_per_100_held": -1.73,
+   "worst_per_100_held": 0.0,
+   "hit_per_100_held": 200.0
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_PIT_CIN",
+   "game": "PIT at CIN",
+   "start": "2026-11-16T01:20Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 47.5,
+   "hi": 49.5,
+   "window": [
+    48,
+    49
+   ],
+   "p_middle": 0.0508,
+   "p_push": 0.0,
+   "held": {
+    "lab": "Over 47.5",
+    "price": -105.0,
+    "book": "bet365",
+    "since": "2026-11-03 19:50:11.385761+00:00"
+   },
+   "add": {
+    "lab": "Under 49.5",
+    "book": "BetMGM",
+    "price": -110.0,
+    "stake_per_100_held": 102.27
+   },
+   "add_ev_per_100_held": -2.53,
+   "worst_per_100_held": -7.03,
+   "hit_per_100_held": 188.21
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "kind": "opener",
+   "no_lose": false,
+   "lo": 50.5,
+   "hi": 51.5,
+   "window": [
+    51,
+    51
+   ],
+   "p_middle": 0.0454,
+   "p_push": 0.0,
+   "held": {
+    "lab": "Under 51.5",
+    "price": -110.0,
+    "book": "bet365",
+    "since": "2026-11-03 19:38:01.197302+00:00"
+   },
+   "add": {
+    "lab": "Over 50.5",
+    "book": "bet365",
+    "price": -114.0,
+    "stake_per_100_held": 101.7
+   },
+   "add_ev_per_100_held": -4.18,
+   "worst_per_100_held": -10.79,
+   "hit_per_100_held": 180.12
+  }
+ ],
+ "markets": [
+  {
+   "sport": "nba",
+   "game_id": "401909985",
+   "game": "IND at PHI",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "PHI ML",
+     "fair": 0.7082,
+     "books": {
+      "DraftKings": -270.0,
+      "FanDuel": -290.0,
+      "BetMGM": -285.0,
+      "Caesars": -278.0,
+      "BetRivers": -295.0,
+      "bet365": -280.0,
+      "Fanatics": -280.0
+     }
+    },
+    {
+     "lab": "IND ML",
+     "fair": 0.2918,
+     "books": {
+      "DraftKings": 221.0,
+      "FanDuel": 230.0,
+      "BetMGM": 230.0,
+      "Caesars": 222.0,
+      "BetRivers": 225.0,
+      "bet365": 230.0,
+      "Fanatics": 225.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909985",
+   "game": "IND at PHI",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -7.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "PHI -7.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -104.0,
+      "FanDuel": -110.0,
+      "BetMGM": -105.0,
+      "bet365": -107.0,
+      "Fanatics": -105.0,
+      "BetRivers": -102.0
+     }
+    },
+    {
+     "lab": "IND +7.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -116.0,
+      "FanDuel": -110.0,
+      "BetMGM": -115.0,
+      "bet365": -113.0,
+      "Fanatics": -115.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909985",
+   "game": "IND at PHI",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 224.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "Over 224.5",
+     "fair": 0.4989,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "Caesars": -110.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0,
+      "BetRivers": -106.0
+     }
+    },
+    {
+     "lab": "Under 224.5",
+     "fair": 0.5011,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "Caesars": -110.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0,
+      "BetRivers": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909985",
+   "game": "IND at PHI",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -7.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "PHI -7",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    },
+    {
+     "lab": "IND +7",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909985",
+   "game": "IND at PHI",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 223.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 223.5",
+     "fair": 0.5064,
+     "books": {
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 223.5",
+     "fair": 0.4936,
+     "books": {
+      "BetRivers": -108.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909986",
+   "game": "LAL at PHX",
+   "start": "2026-11-15T21:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "PHX ML",
+     "fair": 0.412,
+     "books": {
+      "DraftKings": 136.0,
+      "FanDuel": 134.0,
+      "BetMGM": 135.0,
+      "Caesars": 130.0,
+      "BetRivers": 123.0,
+      "bet365": 133.0,
+      "Fanatics": 130.0
+     }
+    },
+    {
+     "lab": "LAL ML",
+     "fair": 0.588,
+     "books": {
+      "DraftKings": -161.0,
+      "FanDuel": -158.0,
+      "BetMGM": -160.0,
+      "Caesars": -155.0,
+      "BetRivers": -155.0,
+      "bet365": -158.0,
+      "Fanatics": -155.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909986",
+   "game": "LAL at PHX",
+   "start": "2026-11-15T21:00Z",
+   "mk": "spread",
+   "line": 3.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "PHX +3.5",
+     "fair": 0.5076,
+     "books": {
+      "DraftKings": -112.0,
+      "BetMGM": -115.0,
+      "Caesars": -110.0,
+      "bet365": -111.0,
+      "Fanatics": -115.0,
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "LAL -3.5",
+     "fair": 0.4924,
+     "books": {
+      "DraftKings": -108.0,
+      "BetMGM": -105.0,
+      "Caesars": -110.0,
+      "bet365": -109.0,
+      "Fanatics": -105.0,
+      "BetRivers": -102.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909986",
+   "game": "LAL at PHX",
+   "start": "2026-11-15T21:00Z",
+   "mk": "total",
+   "line": 228.5,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 228.5",
+     "fair": 0.5011,
+     "books": {
+      "DraftKings": -112.0,
+      "BetRivers": -110.0
+     }
+    },
+    {
+     "lab": "Under 228.5",
+     "fair": 0.4989,
+     "books": {
+      "DraftKings": -108.0,
+      "BetRivers": -112.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909986",
+   "game": "LAL at PHX",
+   "start": "2026-11-15T21:00Z",
+   "mk": "spread",
+   "line": 2.5,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "PHX +2.5",
+     "fair": 0.493,
+     "books": {
+      "FanDuel": -106.0,
+      "BetRivers": -108.0
+     }
+    },
+    {
+     "lab": "LAL -2.5",
+     "fair": 0.507,
+     "books": {
+      "FanDuel": -114.0,
+      "BetRivers": -113.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909986",
+   "game": "LAL at PHX",
+   "start": "2026-11-15T21:00Z",
+   "mk": "total",
+   "line": 227.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 227.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -110.0,
+      "Caesars": -115.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0,
+      "BetRivers": -110.0
+     }
+    },
+    {
+     "lab": "Under 227.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -110.0,
+      "Caesars": -105.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0,
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "LAC ML",
+     "fair": 0.5174,
+     "books": {
+      "DraftKings": -113.0,
+      "FanDuel": -118.0,
+      "BetMGM": -118.0,
+      "Caesars": -120.0,
+      "BetRivers": -127.0,
+      "bet365": -115.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "CHA ML",
+     "fair": 0.4826,
+     "books": {
+      "DraftKings": -104.0,
+      "FanDuel": -100.0,
+      "BetMGM": -102.0,
+      "Caesars": 100.0,
+      "BetRivers": 104.0,
+      "bet365": -105.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "spread",
+   "line": -1.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "LAC -1.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -102.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "BetRivers": -113.0,
+      "bet365": -107.0
+     }
+    },
+    {
+     "lab": "CHA +1.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -118.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "BetRivers": -109.0,
+      "bet365": -113.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "total",
+   "line": 214.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 214.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -108.0,
+      "BetRivers": -113.0,
+      "bet365": -107.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 214.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -112.0,
+      "BetRivers": -109.0,
+      "bet365": -113.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "total",
+   "line": 215.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 215.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -110.0
+     }
+    },
+    {
+     "lab": "Under 215.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "spread",
+   "line": -1.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "LAC -1",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "CHA +1",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909987",
+   "game": "CHA at LAC",
+   "start": "2026-11-15T21:30Z",
+   "mk": "total",
+   "line": 214.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 214",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    },
+    {
+     "lab": "Under 214",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909988",
+   "game": "SA at UTAH",
+   "start": "2026-11-15T22:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "UTAH ML",
+     "fair": 0.0986,
+     "books": {
+      "DraftKings": 850.0,
+      "FanDuel": 870.0,
+      "BetMGM": 875.0,
+      "Caesars": 900.0,
+      "BetRivers": 900.0,
+      "bet365": 875.0,
+      "Fanatics": 850.0
+     }
+    },
+    {
+     "lab": "SA ML",
+     "fair": 0.9014,
+     "books": {
+      "DraftKings": -1460.0,
+      "FanDuel": -1500.0,
+      "BetMGM": -1600.0,
+      "Caesars": -1600.0,
+      "BetRivers": -2000.0,
+      "bet365": -1500.0,
+      "Fanatics": -1400.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909988",
+   "game": "SA at UTAH",
+   "start": "2026-11-15T22:00Z",
+   "mk": "spread",
+   "line": 16.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "UTAH +16.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -113.0,
+      "FanDuel": -108.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "bet365": -112.0,
+      "Fanatics": -110.0,
+      "BetRivers": -105.0
+     }
+    },
+    {
+     "lab": "SA -16.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -107.0,
+      "FanDuel": -112.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "bet365": -108.0,
+      "Fanatics": -110.0,
+      "BetRivers": -111.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909988",
+   "game": "SA at UTAH",
+   "start": "2026-11-15T22:00Z",
+   "mk": "total",
+   "line": 223.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "Over 223.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -108.0,
+      "bet365": -110.0
+     }
+    },
+    {
+     "lab": "Under 223.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -113.0,
+      "bet365": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909988",
+   "game": "SA at UTAH",
+   "start": "2026-11-15T22:00Z",
+   "mk": "spread",
+   "line": 17.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "UTAH +17.5",
+     "fair": 0.5169,
+     "books": {
+      "BetRivers": -120.0
+     }
+    },
+    {
+     "lab": "SA -17.5",
+     "fair": 0.4831,
+     "books": {
+      "BetRivers": -104.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909988",
+   "game": "SA at UTAH",
+   "start": "2026-11-15T22:00Z",
+   "mk": "total",
+   "line": 223.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 223",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 223",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "BOS ML",
+     "fair": 0.854,
+     "books": {
+      "DraftKings": -800.0,
+      "FanDuel": -800.0,
+      "BetMGM": -900.0,
+      "Caesars": -800.0,
+      "BetRivers": -835.0,
+      "bet365": -900.0,
+      "Fanatics": -800.0
+     }
+    },
+    {
+     "lab": "DAL ML",
+     "fair": 0.146,
+     "books": {
+      "DraftKings": 558.0,
+      "FanDuel": 560.0,
+      "BetMGM": 575.0,
+      "Caesars": 550.0,
+      "BetRivers": 540.0,
+      "bet365": 600.0,
+      "Fanatics": 550.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "spread",
+   "line": -14.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "BOS -14.5",
+     "fair": 0.487,
+     "books": {
+      "DraftKings": -104.0
+     }
+    },
+    {
+     "lab": "DAL +14.5",
+     "fair": 0.513,
+     "books": {
+      "DraftKings": -116.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 219.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 219.5",
+     "fair": 0.4935,
+     "books": {
+      "DraftKings": -107.0,
+      "Caesars": -110.0,
+      "bet365": -107.0,
+      "BetRivers": -105.0
+     }
+    },
+    {
+     "lab": "Under 219.5",
+     "fair": 0.5065,
+     "books": {
+      "DraftKings": -113.0,
+      "Caesars": -110.0,
+      "bet365": -113.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "spread",
+   "line": -13.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "BOS -13.5",
+     "fair": 0.5032,
+     "books": {
+      "FanDuel": -110.0,
+      "BetMGM": -115.0,
+      "BetRivers": -113.0,
+      "bet365": -112.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "DAL +13.5",
+     "fair": 0.4968,
+     "books": {
+      "FanDuel": -110.0,
+      "BetMGM": -105.0,
+      "BetRivers": -110.0,
+      "bet365": -108.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 217.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 217.5",
+     "fair": 0.5087,
+     "books": {
+      "FanDuel": -114.0
+     }
+    },
+    {
+     "lab": "Under 217.5",
+     "fair": 0.4913,
+     "books": {
+      "FanDuel": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "spread",
+   "line": -14.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "BOS -14",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    },
+    {
+     "lab": "DAL +14",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909989",
+   "game": "DAL at BOS",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 219.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 219",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 219",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909990",
+   "game": "NY at TOR",
+   "start": "2026-11-15T23:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "TOR ML",
+     "fair": 0.3726,
+     "books": {
+      "DraftKings": 160.0,
+      "FanDuel": 162.0,
+      "BetMGM": 154.0,
+      "Caesars": 158.0,
+      "BetRivers": 150.0,
+      "bet365": 158.0,
+      "Fanatics": 155.0
+     }
+    },
+    {
+     "lab": "NY ML",
+     "fair": 0.6274,
+     "books": {
+      "DraftKings": -191.0,
+      "FanDuel": -194.0,
+      "BetMGM": -190.0,
+      "Caesars": -190.0,
+      "BetRivers": -195.0,
+      "bet365": -188.0,
+      "Fanatics": -190.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909990",
+   "game": "NY at TOR",
+   "start": "2026-11-15T23:00Z",
+   "mk": "spread",
+   "line": 4.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "TOR +4.5",
+     "fair": 0.5097,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -110.0,
+      "BetMGM": -115.0,
+      "Caesars": -115.0,
+      "BetRivers": -113.0,
+      "bet365": -112.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "NY -4.5",
+     "fair": 0.4903,
+     "books": {
+      "DraftKings": -106.0,
+      "FanDuel": -110.0,
+      "BetMGM": -105.0,
+      "Caesars": -105.0,
+      "BetRivers": -110.0,
+      "bet365": -108.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909990",
+   "game": "NY at TOR",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 217.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 217.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "BetMGM": -110.0,
+      "BetRivers": -112.0,
+      "bet365": -110.0
+     }
+    },
+    {
+     "lab": "Under 217.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "BetMGM": -110.0,
+      "BetRivers": -112.0,
+      "bet365": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909990",
+   "game": "NY at TOR",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 216.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 216.5",
+     "fair": 0.515,
+     "books": {
+      "FanDuel": -118.0
+     }
+    },
+    {
+     "lab": "Under 216.5",
+     "fair": 0.485,
+     "books": {
+      "FanDuel": -104.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909990",
+   "game": "NY at TOR",
+   "start": "2026-11-15T23:00Z",
+   "mk": "total",
+   "line": 217.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 217",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 217",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "WSH ML",
+     "fair": 0.2457,
+     "books": {
+      "DraftKings": 286.0,
+      "FanDuel": 320.0,
+      "BetMGM": 300.0,
+      "Caesars": 278.0,
+      "BetRivers": 275.0,
+      "bet365": 290.0,
+      "Fanatics": 290.0
+     }
+    },
+    {
+     "lab": "HOU ML",
+     "fair": 0.7543,
+     "books": {
+      "DraftKings": -359.0,
+      "FanDuel": -405.0,
+      "BetMGM": -400.0,
+      "Caesars": -355.0,
+      "BetRivers": -375.0,
+      "bet365": -370.0,
+      "Fanatics": -375.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "spread",
+   "line": 8.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "WSH +8.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -108.0,
+      "BetMGM": -105.0,
+      "Caesars": -110.0,
+      "bet365": -110.0,
+      "Fanatics": -110.0,
+      "BetRivers": -102.0
+     }
+    },
+    {
+     "lab": "HOU -8.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -112.0,
+      "BetMGM": -115.0,
+      "Caesars": -110.0,
+      "bet365": -110.0,
+      "Fanatics": -110.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "total",
+   "line": 222.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 222.5",
+     "fair": 0.4955,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -105.0,
+      "BetMGM": -110.0,
+      "bet365": -107.0,
+      "BetRivers": -106.0
+     }
+    },
+    {
+     "lab": "Under 222.5",
+     "fair": 0.5045,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -115.0,
+      "BetMGM": -110.0,
+      "bet365": -113.0,
+      "BetRivers": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "spread",
+   "line": 9.5,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "WSH +9.5",
+     "fair": 0.5233,
+     "books": {
+      "FanDuel": -114.0,
+      "BetRivers": -130.0
+     }
+    },
+    {
+     "lab": "HOU -9.5",
+     "fair": 0.4767,
+     "books": {
+      "FanDuel": -106.0,
+      "BetRivers": 106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "total",
+   "line": 223.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 223",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 223",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909991",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "mk": "total",
+   "line": 223.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 223.5",
+     "fair": 0.4936,
+     "books": {
+      "BetRivers": -108.0
+     }
+    },
+    {
+     "lab": "Under 223.5",
+     "fair": 0.5064,
+     "books": {
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909992",
+   "game": "ATL at MIL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "MIL ML",
+     "fair": 0.2809,
+     "books": {
+      "DraftKings": 251.0,
+      "FanDuel": 240.0,
+      "BetMGM": 240.0,
+      "Caesars": 240.0,
+      "BetRivers": 225.0,
+      "bet365": 250.0,
+      "Fanatics": 250.0
+     }
+    },
+    {
+     "lab": "ATL ML",
+     "fair": 0.7191,
+     "books": {
+      "DraftKings": -310.0,
+      "FanDuel": -295.0,
+      "BetMGM": -295.0,
+      "Caesars": -305.0,
+      "BetRivers": -295.0,
+      "bet365": -310.0,
+      "Fanatics": -320.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909992",
+   "game": "ATL at MIL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "spread",
+   "line": 7.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "MIL +7.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -110.0,
+      "BetMGM": -105.0,
+      "Caesars": -105.0,
+      "BetRivers": -112.0,
+      "bet365": -107.0,
+      "Fanatics": -105.0
+     }
+    },
+    {
+     "lab": "ATL -7.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -110.0,
+      "BetMGM": -115.0,
+      "Caesars": -115.0,
+      "BetRivers": -110.0,
+      "bet365": -113.0,
+      "Fanatics": -115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909992",
+   "game": "ATL at MIL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 234.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 234.5",
+     "fair": 0.4934,
+     "books": {
+      "DraftKings": -105.0,
+      "BetMGM": -110.0,
+      "bet365": -107.0,
+      "BetRivers": -105.0
+     }
+    },
+    {
+     "lab": "Under 234.5",
+     "fair": 0.5066,
+     "books": {
+      "DraftKings": -115.0,
+      "BetMGM": -110.0,
+      "bet365": -113.0,
+      "BetRivers": -111.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909992",
+   "game": "ATL at MIL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 233.5,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 233.5",
+     "fair": 0.5108,
+     "books": {
+      "FanDuel": -118.0,
+      "Caesars": -115.0,
+      "BetRivers": -112.0
+     }
+    },
+    {
+     "lab": "Under 233.5",
+     "fair": 0.4892,
+     "books": {
+      "FanDuel": -104.0,
+      "Caesars": -105.0,
+      "BetRivers": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909992",
+   "game": "ATL at MIL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 234.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 234",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 234",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909993",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "SAC ML",
+     "fair": 0.2071,
+     "books": {
+      "DraftKings": 360.0,
+      "FanDuel": 385.0,
+      "BetMGM": 375.0,
+      "Caesars": 360.0,
+      "BetRivers": 335.0,
+      "bet365": 365.0
+     }
+    },
+    {
+     "lab": "OKC ML",
+     "fair": 0.7929,
+     "books": {
+      "DraftKings": -467.0,
+      "FanDuel": -500.0,
+      "BetMGM": -500.0,
+      "Caesars": -480.0,
+      "BetRivers": -455.0,
+      "bet365": -480.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909993",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "line": 10.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "SAC +10.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -114.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -114.0,
+      "bet365": -109.0
+     }
+    },
+    {
+     "lab": "OKC -10.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -106.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -108.0,
+      "bet365": -111.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909993",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 222.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 222.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -105.0,
+      "BetMGM": -105.0,
+      "bet365": -106.0
+     }
+    },
+    {
+     "lab": "Under 222.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -115.0,
+      "BetMGM": -115.0,
+      "bet365": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909993",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 222.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 222",
+     "fair": 0.5108,
+     "books": {
+      "Caesars": -115.0
+     }
+    },
+    {
+     "lab": "Under 222",
+     "fair": 0.4892,
+     "books": {
+      "Caesars": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909993",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 221.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 221.5",
+     "fair": 0.4979,
+     "books": {
+      "BetRivers": -110.0
+     }
+    },
+    {
+     "lab": "Under 221.5",
+     "fair": 0.5021,
+     "books": {
+      "BetRivers": -112.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "PHI ML",
+     "fair": 0.4255,
+     "books": {
+      "DraftKings": 124.0,
+      "FanDuel": 126.0,
+      "BetMGM": 125.0,
+      "Caesars": 130.0,
+      "BetRivers": 132.0,
+      "bet365": 124.0,
+      "Fanatics": 125.0
+     }
+    },
+    {
+     "lab": "EDM ML",
+     "fair": 0.5745,
+     "books": {
+      "DraftKings": -148.0,
+      "FanDuel": -152.0,
+      "BetMGM": -150.0,
+      "Caesars": -154.0,
+      "BetRivers": -157.0,
+      "bet365": -148.0,
+      "Fanatics": -150.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "spread",
+   "line": 1.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "PHI +1.5",
+     "fair": 0.6351,
+     "books": {
+      "DraftKings": -198.0,
+      "FanDuel": -192.0,
+      "BetMGM": -190.0,
+      "BetRivers": -205.0,
+      "bet365": -200.0,
+      "Fanatics": -200.0
+     }
+    },
+    {
+     "lab": "EDM -1.5",
+     "fair": 0.3649,
+     "books": {
+      "DraftKings": 164.0,
+      "FanDuel": 154.0,
+      "BetMGM": 155.0,
+      "BetRivers": 160.0,
+      "bet365": 165.0,
+      "Fanatics": 160.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "total",
+   "line": 6.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 6.5",
+     "fair": 0.4532,
+     "books": {
+      "DraftKings": 114.0,
+      "FanDuel": 110.0,
+      "BetRivers": 110.0,
+      "bet365": 112.0,
+      "Fanatics": 110.0
+     }
+    },
+    {
+     "lab": "Under 6.5",
+     "fair": 0.5468,
+     "books": {
+      "DraftKings": -135.0,
+      "FanDuel": -134.0,
+      "BetRivers": -136.0,
+      "bet365": -132.0,
+      "Fanatics": -135.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020326",
+   "game": "EDM at PHI",
+   "start": "2026-11-16T00:30Z",
+   "mk": "total",
+   "line": 6.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 6",
+     "fair": 0.5108,
+     "books": {
+      "BetMGM": -115.0,
+      "Caesars": -117.0,
+      "BetRivers": 108.0
+     }
+    },
+    {
+     "lab": "Under 6",
+     "fair": 0.4892,
+     "books": {
+      "BetMGM": -105.0,
+      "Caesars": -106.0,
+      "BetRivers": -128.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020328",
+   "game": "CGY at ANA",
+   "start": "2026-11-16T01:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "ANA ML",
+     "fair": 0.5801,
+     "books": {
+      "DraftKings": -155.0,
+      "FanDuel": -152.0,
+      "BetMGM": -155.0,
+      "Caesars": -152.0,
+      "BetRivers": -157.0,
+      "bet365": -153.0,
+      "Fanatics": -155.0
+     }
+    },
+    {
+     "lab": "CGY ML",
+     "fair": 0.4199,
+     "books": {
+      "DraftKings": 130.0,
+      "FanDuel": 126.0,
+      "BetMGM": 125.0,
+      "Caesars": 129.0,
+      "BetRivers": 132.0,
+      "bet365": 128.0,
+      "Fanatics": 130.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020328",
+   "game": "CGY at ANA",
+   "start": "2026-11-16T01:00Z",
+   "mk": "spread",
+   "line": -1.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "ANA -1.5",
+     "fair": 0.3803,
+     "books": {
+      "DraftKings": 154.0,
+      "FanDuel": 146.0,
+      "BetMGM": 150.0,
+      "BetRivers": 155.0,
+      "bet365": 153.0,
+      "Fanatics": 150.0
+     }
+    },
+    {
+     "lab": "CGY +1.5",
+     "fair": 0.6197,
+     "books": {
+      "DraftKings": -185.0,
+      "FanDuel": -184.0,
+      "BetMGM": -185.0,
+      "BetRivers": -195.0,
+      "bet365": -183.0,
+      "Fanatics": -185.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020328",
+   "game": "CGY at ANA",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 6.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 6.5",
+     "fair": 0.5305,
+     "books": {
+      "DraftKings": -125.0,
+      "FanDuel": -122.0,
+      "BetMGM": -120.0,
+      "Caesars": -130.0,
+      "BetRivers": -127.0,
+      "bet365": -124.0,
+      "Fanatics": -125.0
+     }
+    },
+    {
+     "lab": "Under 6.5",
+     "fair": 0.4695,
+     "books": {
+      "DraftKings": 105.0,
+      "FanDuel": -100.0,
+      "BetMGM": 100.0,
+      "Caesars": 106.0,
+      "BetRivers": 102.0,
+      "bet365": 104.0,
+      "Fanatics": 105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020327",
+   "game": "FLA at DAL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "DAL ML",
+     "fair": 0.5507,
+     "books": {
+      "DraftKings": -135.0,
+      "FanDuel": -134.0,
+      "BetMGM": -140.0,
+      "Caesars": -130.0,
+      "BetRivers": -130.0,
+      "bet365": -134.0,
+      "Fanatics": -140.0
+     }
+    },
+    {
+     "lab": "FLA ML",
+     "fair": 0.4493,
+     "books": {
+      "DraftKings": 114.0,
+      "FanDuel": 112.0,
+      "BetMGM": 115.0,
+      "Caesars": 111.0,
+      "BetRivers": 108.0,
+      "bet365": 114.0,
+      "Fanatics": 115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020327",
+   "game": "FLA at DAL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "spread",
+   "line": -1.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "DAL -1.5",
+     "fair": 0.3333,
+     "books": {
+      "DraftKings": 190.0,
+      "FanDuel": 184.0,
+      "BetMGM": 170.0,
+      "BetRivers": 195.0,
+      "bet365": 190.0,
+      "Fanatics": 180.0
+     }
+    },
+    {
+     "lab": "FLA +1.5",
+     "fair": 0.6667,
+     "books": {
+      "DraftKings": -230.0,
+      "FanDuel": -230.0,
+      "BetMGM": -210.0,
+      "BetRivers": -245.0,
+      "bet365": -235.0,
+      "Fanatics": -225.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020327",
+   "game": "FLA at DAL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 5.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 5.5",
+     "fair": 0.538,
+     "books": {
+      "DraftKings": -130.0,
+      "FanDuel": -130.0,
+      "BetRivers": -130.0,
+      "bet365": -132.0,
+      "Fanatics": -125.0
+     }
+    },
+    {
+     "lab": "Under 5.5",
+     "fair": 0.462,
+     "books": {
+      "DraftKings": 110.0,
+      "FanDuel": 106.0,
+      "BetRivers": 106.0,
+      "bet365": 112.0,
+      "Fanatics": 105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020327",
+   "game": "FLA at DAL",
+   "start": "2026-11-16T01:00Z",
+   "mk": "total",
+   "line": 6.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 6",
+     "fair": 0.4861,
+     "books": {
+      "BetMGM": -105.0,
+      "Caesars": -104.0
+     }
+    },
+    {
+     "lab": "Under 6",
+     "fair": 0.5139,
+     "books": {
+      "BetMGM": -115.0,
+      "Caesars": -120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020330",
+   "game": "NSH at SJS",
+   "start": "2026-11-16T02:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "SJS ML",
+     "fair": 0.4009,
+     "books": {
+      "DraftKings": 142.0,
+      "FanDuel": 136.0,
+      "BetMGM": 140.0,
+      "Caesars": 143.0,
+      "BetRivers": 135.0,
+      "bet365": 140.0,
+      "Fanatics": 135.0
+     }
+    },
+    {
+     "lab": "NSH ML",
+     "fair": 0.5991,
+     "books": {
+      "DraftKings": -170.0,
+      "FanDuel": -164.0,
+      "BetMGM": -170.0,
+      "Caesars": -170.0,
+      "BetRivers": -165.0,
+      "bet365": -165.0,
+      "Fanatics": -165.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020330",
+   "game": "NSH at SJS",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "line": 1.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "SJS +1.5",
+     "fair": 0.6107,
+     "books": {
+      "DraftKings": -170.0,
+      "FanDuel": -178.0,
+      "BetMGM": -170.0,
+      "BetRivers": -186.0,
+      "bet365": -176.0,
+      "Fanatics": -180.0
+     }
+    },
+    {
+     "lab": "NSH -1.5",
+     "fair": 0.3893,
+     "books": {
+      "DraftKings": 142.0,
+      "FanDuel": 144.0,
+      "BetMGM": 140.0,
+      "BetRivers": 148.0,
+      "bet365": 148.0,
+      "Fanatics": 145.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020330",
+   "game": "NSH at SJS",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 6.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 6.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -102.0,
+      "BetMGM": -105.0,
+      "Caesars": -109.0,
+      "BetRivers": -103.0,
+      "bet365": -106.0,
+      "Fanatics": -105.0
+     }
+    },
+    {
+     "lab": "Under 6.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -120.0,
+      "BetMGM": -115.0,
+      "Caesars": -113.0,
+      "BetRivers": -122.0,
+      "bet365": -114.0,
+      "Fanatics": -115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020330",
+   "game": "NSH at SJS",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 6.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 6",
+     "fair": 0.5174,
+     "books": {
+      "BetRivers": -118.0
+     }
+    },
+    {
+     "lab": "Under 6",
+     "fair": 0.4826,
+     "books": {
+      "BetRivers": -102.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "VGK ML",
+     "fair": 0.7723,
+     "books": {
+      "DraftKings": -410.0,
+      "FanDuel": -420.0,
+      "BetMGM": -400.0,
+      "Caesars": -420.0,
+      "BetRivers": -420.0,
+      "bet365": -440.0,
+      "Fanatics": -425.0
+     }
+    },
+    {
+     "lab": "VAN ML",
+     "fair": 0.2277,
+     "books": {
+      "DraftKings": 320.0,
+      "FanDuel": 320.0,
+      "BetMGM": 310.0,
+      "Caesars": 320.0,
+      "BetRivers": 335.0,
+      "bet365": 340.0,
+      "Fanatics": 325.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "line": -1.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "VGK -1.5",
+     "fair": 0.5834,
+     "books": {
+      "DraftKings": -148.0,
+      "FanDuel": -158.0,
+      "BetRivers": -165.0,
+      "bet365": -157.0
+     }
+    },
+    {
+     "lab": "VAN +1.5",
+     "fair": 0.4166,
+     "books": {
+      "DraftKings": 124.0,
+      "FanDuel": 126.0,
+      "BetRivers": 132.0,
+      "bet365": 132.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 6.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 6.5",
+     "fair": 0.4957,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -106.0,
+      "BetMGM": -115.0,
+      "Caesars": -107.0,
+      "BetRivers": -109.0,
+      "bet365": -107.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 6.5",
+     "fair": 0.5043,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -114.0,
+      "BetMGM": -105.0,
+      "Caesars": -115.0,
+      "BetRivers": -113.0,
+      "bet365": -113.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "spread",
+   "line": -2.5,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "VGK -2.5",
+     "fair": 0.4675,
+     "books": {
+      "BetMGM": 100.0,
+      "Fanatics": 105.0,
+      "BetRivers": 105.0
+     }
+    },
+    {
+     "lab": "VAN +2.5",
+     "fair": 0.5325,
+     "books": {
+      "BetMGM": -120.0,
+      "Fanatics": -125.0,
+      "BetRivers": -125.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020329",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "mk": "total",
+   "line": 6.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 6",
+     "fair": 0.5312,
+     "books": {
+      "BetRivers": -125.0
+     }
+    },
+    {
+     "lab": "Under 6",
+     "fair": 0.4688,
+     "books": {
+      "BetRivers": 104.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_NE_DET",
+   "game": "NE at DET",
+   "start": "2026-11-15T14:30Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "DET ML",
+     "fair": 0.5656,
+     "books": {
+      "DraftKings": -148.0,
+      "FanDuel": -142.0,
+      "BetMGM": -145.0,
+      "Caesars": -143.0,
+      "BetRivers": -143.0,
+      "bet365": -146.0,
+      "Fanatics": -145.0
+     }
+    },
+    {
+     "lab": "NE ML",
+     "fair": 0.4344,
+     "books": {
+      "DraftKings": 124.0,
+      "FanDuel": 120.0,
+      "BetMGM": 120.0,
+      "Caesars": 122.0,
+      "BetRivers": 116.0,
+      "bet365": 123.0,
+      "Fanatics": 120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_NE_DET",
+   "game": "NE at DET",
+   "start": "2026-11-15T14:30Z",
+   "mk": "spread",
+   "line": -2.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "DET -2.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -120.0,
+      "FanDuel": -115.0,
+      "BetMGM": -112.0,
+      "Caesars": -115.0,
+      "BetRivers": -110.0,
+      "bet365": -115.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "NE +2.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": 100.0,
+      "FanDuel": -105.0,
+      "BetMGM": -105.0,
+      "Caesars": -105.0,
+      "BetRivers": -108.0,
+      "bet365": -105.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_NE_DET",
+   "game": "NE at DET",
+   "start": "2026-11-15T14:30Z",
+   "mk": "total",
+   "line": 50.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "Over 50.5",
+     "fair": 0.5097,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -120.0,
+      "Caesars": -112.0,
+      "BetRivers": -110.0,
+      "bet365": -114.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "Under 50.5",
+     "fair": 0.4903,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -100.0,
+      "Caesars": -108.0,
+      "BetRivers": -113.0,
+      "bet365": -106.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_NE_DET",
+   "game": "NE at DET",
+   "start": "2026-11-15T14:30Z",
+   "mk": "total",
+   "line": 51.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 51",
+     "fair": 0.4923,
+     "books": {
+      "BetMGM": -105.0
+     }
+    },
+    {
+     "lab": "Under 51",
+     "fair": 0.5077,
+     "books": {
+      "BetMGM": -112.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "CLE ML",
+     "fair": 0.3349,
+     "books": {
+      "DraftKings": 185.0,
+      "FanDuel": 190.0,
+      "BetMGM": 185.0,
+      "Caesars": 192.0,
+      "BetRivers": 190.0,
+      "bet365": 185.0,
+      "Fanatics": 185.0
+     }
+    },
+    {
+     "lab": "HOU ML",
+     "fair": 0.6651,
+     "books": {
+      "DraftKings": -225.0,
+      "FanDuel": -230.0,
+      "BetMGM": -225.0,
+      "Caesars": -235.0,
+      "BetRivers": -235.0,
+      "bet365": -230.0,
+      "Fanatics": -225.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 4.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "CLE +4.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -108.0,
+      "bet365": -110.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "HOU -4.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -109.0,
+      "BetRivers": -113.0,
+      "bet365": -110.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 40.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 40.5",
+     "fair": 0.5032,
+     "books": {
+      "DraftKings": -112.0,
+      "Caesars": -108.0,
+      "BetRivers": -113.0,
+      "bet365": -111.0
+     }
+    },
+    {
+     "lab": "Under 40.5",
+     "fair": 0.4968,
+     "books": {
+      "DraftKings": -108.0,
+      "Caesars": -112.0,
+      "BetRivers": -108.0,
+      "bet365": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 41.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 41.5",
+     "fair": 0.4783,
+     "books": {
+      "FanDuel": -100.0
+     }
+    },
+    {
+     "lab": "Under 41.5",
+     "fair": 0.5217,
+     "books": {
+      "FanDuel": -120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_HOU_CLE",
+   "game": "HOU at CLE",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 41.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 41",
+     "fair": 0.4961,
+     "books": {
+      "BetMGM": -105.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 41",
+     "fair": 0.5039,
+     "books": {
+      "BetMGM": -112.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_JAX_TEN",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "TEN ML",
+     "fair": 0.1671,
+     "books": {
+      "DraftKings": 525.0,
+      "FanDuel": 500.0,
+      "BetMGM": 500.0,
+      "Caesars": 450.0,
+      "BetRivers": 420.0,
+      "bet365": 475.0,
+      "Fanatics": 460.0
+     }
+    },
+    {
+     "lab": "JAX ML",
+     "fair": 0.8329,
+     "books": {
+      "DraftKings": -750.0,
+      "FanDuel": -700.0,
+      "BetMGM": -650.0,
+      "Caesars": -625.0,
+      "BetRivers": -625.0,
+      "bet365": -650.0,
+      "Fanatics": -650.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_JAX_TEN",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 10.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "TEN +10.5",
+     "fair": 0.4957,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -110.0,
+      "Caesars": -108.0,
+      "BetRivers": -112.0,
+      "bet365": -107.0
+     }
+    },
+    {
+     "lab": "JAX -10.5",
+     "fair": 0.5043,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -110.0,
+      "Caesars": -112.0,
+      "BetRivers": -110.0,
+      "bet365": -113.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_JAX_TEN",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 46.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 46.5",
+     "fair": 0.4946,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -100.0,
+      "Caesars": -108.0,
+      "BetRivers": -108.0,
+      "bet365": -106.0
+     }
+    },
+    {
+     "lab": "Under 46.5",
+     "fair": 0.5054,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -120.0,
+      "Caesars": -112.0,
+      "BetRivers": -113.0,
+      "bet365": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_JAX_TEN",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 11.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "TEN +11",
+     "fair": 0.5011,
+     "books": {
+      "BetMGM": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "JAX -11",
+     "fair": 0.4989,
+     "books": {
+      "BetMGM": -108.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_JAX_TEN",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 46.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "Over 46",
+     "fair": 0.5011,
+     "books": {
+      "BetMGM": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 46",
+     "fair": 0.4989,
+     "books": {
+      "BetMGM": -108.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "GB ML",
+     "fair": 0.5721,
+     "books": {
+      "DraftKings": -148.0,
+      "FanDuel": -146.0,
+      "BetMGM": -145.0,
+      "Caesars": -148.0,
+      "BetRivers": -150.0,
+      "bet365": -150.0,
+      "Fanatics": -145.0
+     }
+    },
+    {
+     "lab": "MIN ML",
+     "fair": 0.4279,
+     "books": {
+      "DraftKings": 124.0,
+      "FanDuel": 124.0,
+      "BetMGM": 120.0,
+      "Caesars": 125.0,
+      "BetRivers": 125.0,
+      "bet365": 125.0,
+      "Fanatics": 120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -2.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "GB -2.5",
+     "fair": 0.5217,
+     "books": {
+      "DraftKings": -120.0,
+      "FanDuel": -120.0,
+      "BetMGM": -118.0,
+      "Caesars": -121.0,
+      "bet365": -118.0,
+      "Fanatics": -115.0,
+      "BetRivers": -125.0
+     }
+    },
+    {
+     "lab": "MIN +2.5",
+     "fair": 0.4783,
+     "books": {
+      "DraftKings": 100.0,
+      "FanDuel": -100.0,
+      "BetMGM": -102.0,
+      "Caesars": 101.0,
+      "bet365": -102.0,
+      "Fanatics": -105.0,
+      "BetRivers": -100.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 42.5,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 42.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -105.0,
+      "bet365": -105.0
+     }
+    },
+    {
+     "lab": "Under 42.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -115.0,
+      "bet365": -115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 42.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 42",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 42",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -109.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -3.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "GB -3",
+     "fair": 0.4872,
+     "books": {
+      "BetRivers": -105.0
+     }
+    },
+    {
+     "lab": "MIN +3",
+     "fair": 0.5128,
+     "books": {
+      "BetRivers": -117.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIN_GB",
+   "game": "MIN at GB",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 41.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 41.5",
+     "fair": 0.5087,
+     "books": {
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 41.5",
+     "fair": 0.4913,
+     "books": {
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIA_IND",
+   "game": "MIA at IND",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "IND ML",
+     "fair": 0.6541,
+     "books": {
+      "DraftKings": -225.0,
+      "FanDuel": -210.0,
+      "BetMGM": -220.0,
+      "Caesars": -209.0,
+      "BetRivers": -220.0,
+      "bet365": -220.0,
+      "Fanatics": -215.0
+     }
+    },
+    {
+     "lab": "MIA ML",
+     "fair": 0.3459,
+     "books": {
+      "DraftKings": 185.0,
+      "FanDuel": 176.0,
+      "BetMGM": 180.0,
+      "Caesars": 174.0,
+      "BetRivers": 175.0,
+      "bet365": 180.0,
+      "Fanatics": 175.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIA_IND",
+   "game": "MIA at IND",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -4.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "IND -4.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -105.0,
+      "BetMGM": -108.0,
+      "Caesars": -104.0,
+      "BetRivers": -109.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "MIA +4.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -115.0,
+      "BetMGM": -110.0,
+      "Caesars": -117.0,
+      "BetRivers": -112.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_MIA_IND",
+   "game": "MIA at IND",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 37.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 37.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -114.0,
+      "BetRivers": -113.0,
+      "bet365": -107.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 37.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -106.0,
+      "BetRivers": -108.0,
+      "bet365": -113.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "NYJ ML",
+     "fair": 0.2133,
+     "books": {
+      "DraftKings": 350.0,
+      "FanDuel": 360.0,
+      "BetMGM": 350.0,
+      "Caesars": 350.0,
+      "BetRivers": 350.0,
+      "bet365": 355.0,
+      "Fanatics": 340.0
+     }
+    },
+    {
+     "lab": "BUF ML",
+     "fair": 0.7867,
+     "books": {
+      "DraftKings": -455.0,
+      "FanDuel": -460.0,
+      "BetMGM": -450.0,
+      "Caesars": -460.0,
+      "BetRivers": -455.0,
+      "bet365": -460.0,
+      "Fanatics": -450.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 8.5,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "NYJ +8.5",
+     "fair": 0.5174,
+     "books": {
+      "DraftKings": -118.0
+     }
+    },
+    {
+     "lab": "BUF -8.5",
+     "fair": 0.4826,
+     "books": {
+      "DraftKings": -102.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 50.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 50.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -115.0,
+      "Caesars": -117.0,
+      "bet365": -114.0,
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 50.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -105.0,
+      "Caesars": -104.0,
+      "bet365": -106.0,
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 7.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "NYJ +7.5",
+     "fair": 0.4989,
+     "books": {
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -108.0,
+      "BetRivers": -108.0,
+      "bet365": -114.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "BUF -7.5",
+     "fair": 0.5011,
+     "books": {
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -112.0,
+      "BetRivers": -110.0,
+      "bet365": -106.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_BUF_NYJ",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 51.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 51",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -110.0,
+      "BetRivers": -107.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 51",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -110.0,
+      "BetRivers": -114.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_CAR_NO",
+   "game": "CAR at NO",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "NO ML",
+     "fair": 0.5138,
+     "books": {
+      "DraftKings": -118.0,
+      "FanDuel": -108.0,
+      "BetMGM": -115.0,
+      "Caesars": -120.0,
+      "BetRivers": -118.0,
+      "bet365": -115.0,
+      "Fanatics": -120.0
+     }
+    },
+    {
+     "lab": "CAR ML",
+     "fair": 0.4862,
+     "books": {
+      "DraftKings": -102.0,
+      "FanDuel": -108.0,
+      "BetMGM": -105.0,
+      "Caesars": 102.0,
+      "BetRivers": -105.0,
+      "bet365": -105.0,
+      "Fanatics": 100.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_CAR_NO",
+   "game": "CAR at NO",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -1.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "NO -1.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -100.0,
+      "Caesars": -107.0,
+      "bet365": -105.0,
+      "BetRivers": -106.0
+     }
+    },
+    {
+     "lab": "CAR +1.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -120.0,
+      "Caesars": -113.0,
+      "bet365": -115.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_CAR_NO",
+   "game": "CAR at NO",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 48.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 48.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -118.0,
+      "FanDuel": -115.0,
+      "BetRivers": -115.0,
+      "bet365": -115.0
+     }
+    },
+    {
+     "lab": "Under 48.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -102.0,
+      "FanDuel": -105.0,
+      "BetRivers": -107.0,
+      "bet365": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_CAR_NO",
+   "game": "CAR at NO",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -1.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "NO -1",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -108.0,
+      "BetRivers": -112.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "CAR +1",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -112.0,
+      "BetRivers": -112.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_CAR_NO",
+   "game": "CAR at NO",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 49.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 49",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -108.0,
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 49",
+     "fair": 0.5,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_KC_ATL",
+   "game": "KC at ATL",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "ATL ML",
+     "fair": 0.3836,
+     "books": {
+      "DraftKings": 150.0,
+      "FanDuel": 144.0,
+      "BetMGM": 150.0,
+      "Caesars": 147.0,
+      "BetRivers": 145.0,
+      "bet365": 150.0,
+      "Fanatics": 155.0
+     }
+    },
+    {
+     "lab": "KC ML",
+     "fair": 0.6164,
+     "books": {
+      "DraftKings": -180.0,
+      "FanDuel": -172.0,
+      "BetMGM": -185.0,
+      "Caesars": -173.0,
+      "BetRivers": -177.0,
+      "bet365": -180.0,
+      "Fanatics": -190.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_KC_ATL",
+   "game": "KC at ATL",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 3.0,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "ATL +3",
+     "fair": 0.4826,
+     "books": {
+      "DraftKings": -102.0,
+      "BetMGM": -102.0,
+      "Caesars": -106.0,
+      "BetRivers": -103.0
+     }
+    },
+    {
+     "lab": "KC -3",
+     "fair": 0.5174,
+     "books": {
+      "DraftKings": -118.0,
+      "BetMGM": -118.0,
+      "Caesars": -114.0,
+      "BetRivers": -120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_KC_ATL",
+   "game": "KC at ATL",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 47.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 47.5",
+     "fair": 0.4989,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -109.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0,
+      "BetRivers": -110.0
+     }
+    },
+    {
+     "lab": "Under 47.5",
+     "fair": 0.5011,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0,
+      "BetRivers": -111.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_KC_ATL",
+   "game": "KC at ATL",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": 3.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "ATL +3.5",
+     "fair": 0.5217,
+     "books": {
+      "FanDuel": -120.0,
+      "bet365": -120.0,
+      "Fanatics": -120.0,
+      "BetRivers": -118.0
+     }
+    },
+    {
+     "lab": "KC -3.5",
+     "fair": 0.4783,
+     "books": {
+      "FanDuel": -100.0,
+      "bet365": 100.0,
+      "Fanatics": 100.0,
+      "BetRivers": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_KC_ATL",
+   "game": "KC at ATL",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 47.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 47",
+     "fair": 0.5087,
+     "books": {
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 47",
+     "fair": 0.4913,
+     "books": {
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "ARI ML",
+     "fair": 0.2034,
+     "books": {
+      "DraftKings": 370.0,
+      "FanDuel": 385.0,
+      "BetMGM": 380.0,
+      "Caesars": 370.0,
+      "BetRivers": 360.0,
+      "bet365": 390.0,
+      "Fanatics": 370.0
+     }
+    },
+    {
+     "lab": "LA ML",
+     "fair": 0.7966,
+     "books": {
+      "DraftKings": -485.0,
+      "FanDuel": -500.0,
+      "BetMGM": -500.0,
+      "Caesars": -480.0,
+      "BetRivers": -530.0,
+      "bet365": -525.0,
+      "Fanatics": -500.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "spread",
+   "line": 9.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "ARI +9.5",
+     "fair": 0.4913,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -110.0,
+      "Caesars": -108.0,
+      "bet365": -107.0,
+      "Fanatics": -105.0,
+      "BetRivers": -100.0
+     }
+    },
+    {
+     "lab": "LA -9.5",
+     "fair": 0.5087,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -110.0,
+      "Caesars": -112.0,
+      "bet365": -113.0,
+      "Fanatics": -115.0,
+      "BetRivers": -120.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "total",
+   "line": 38.5,
+   "n_books": 4,
+   "sides": [
+    {
+     "lab": "Over 38.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetRivers": -112.0,
+      "bet365": -110.0
+     }
+    },
+    {
+     "lab": "Under 38.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetRivers": -110.0,
+      "bet365": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "spread",
+   "line": 10.0,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "ARI +10",
+     "fair": 0.506,
+     "books": {
+      "BetMGM": -112.0,
+      "BetRivers": -113.0
+     }
+    },
+    {
+     "lab": "LA -10",
+     "fair": 0.494,
+     "books": {
+      "BetMGM": -105.0,
+      "BetRivers": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LA_ARI",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "mk": "total",
+   "line": 38.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 38",
+     "fair": 0.5022,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -114.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 38",
+     "fair": 0.4978,
+     "books": {
+      "BetMGM": -108.0,
+      "Caesars": -106.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SEA_LV",
+   "game": "SEA at LV",
+   "start": "2026-11-15T21:05Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "LV ML",
+     "fair": 0.2817,
+     "books": {
+      "DraftKings": 235.0,
+      "FanDuel": 250.0,
+      "BetMGM": 240.0,
+      "Caesars": 240.0,
+      "BetRivers": 240.0,
+      "bet365": 240.0,
+      "Fanatics": 230.0
+     }
+    },
+    {
+     "lab": "SEA ML",
+     "fair": 0.7183,
+     "books": {
+      "DraftKings": -290.0,
+      "FanDuel": -310.0,
+      "BetMGM": -295.0,
+      "Caesars": -310.0,
+      "BetRivers": -315.0,
+      "bet365": -300.0,
+      "Fanatics": -285.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SEA_LV",
+   "game": "SEA at LV",
+   "start": "2026-11-15T21:05Z",
+   "mk": "spread",
+   "line": 6.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "LV +6.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -107.0,
+      "BetRivers": -108.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "SEA -6.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -113.0,
+      "BetRivers": -113.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SEA_LV",
+   "game": "SEA at LV",
+   "start": "2026-11-15T21:05Z",
+   "mk": "total",
+   "line": 40.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 40.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -110.0,
+      "BetRivers": -108.0,
+      "bet365": -110.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 40.5",
+     "fair": 0.5,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -109.0,
+      "BetRivers": -112.0,
+      "bet365": -110.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "DAL ML",
+     "fair": 0.3419,
+     "books": {
+      "DraftKings": 180.0,
+      "FanDuel": 184.0,
+      "BetMGM": 180.0,
+      "Caesars": 183.0,
+      "BetRivers": 180.0,
+      "bet365": 180.0,
+      "Fanatics": 170.0
+     }
+    },
+    {
+     "lab": "SF ML",
+     "fair": 0.6581,
+     "books": {
+      "DraftKings": -218.0,
+      "FanDuel": -220.0,
+      "BetMGM": -220.0,
+      "Caesars": -218.0,
+      "BetRivers": -215.0,
+      "bet365": -220.0,
+      "Fanatics": -205.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "spread",
+   "line": 4.5,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "DAL +4.5",
+     "fair": 0.5087,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -115.0,
+      "bet365": -114.0
+     }
+    },
+    {
+     "lab": "SF -4.5",
+     "fair": 0.4913,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -105.0,
+      "bet365": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "total",
+   "line": 55.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 55.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -118.0,
+      "FanDuel": -115.0,
+      "bet365": -115.0,
+      "Fanatics": -110.0,
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 55.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -102.0,
+      "FanDuel": -105.0,
+      "bet365": -105.0,
+      "Fanatics": -110.0,
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "spread",
+   "line": 4.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "DAL +4",
+     "fair": 0.4978,
+     "books": {
+      "BetMGM": -108.0,
+      "Caesars": -109.0,
+      "BetRivers": -107.0
+     }
+    },
+    {
+     "lab": "SF -4",
+     "fair": 0.5022,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -110.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "total",
+   "line": 56.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 56",
+     "fair": 0.4978,
+     "books": {
+      "BetMGM": -108.0,
+      "Caesars": -107.0,
+      "BetRivers": -112.0
+     }
+    },
+    {
+     "lab": "Under 56",
+     "fair": 0.5022,
+     "books": {
+      "BetMGM": -110.0,
+      "Caesars": -113.0,
+      "BetRivers": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_SF_DAL",
+   "game": "SF at DAL",
+   "start": "2026-11-15T21:25Z",
+   "mk": "spread",
+   "line": 3.5,
+   "n_books": 2,
+   "sides": [
+    {
+     "lab": "DAL +3.5",
+     "fair": 0.4903,
+     "books": {
+      "Fanatics": -105.0,
+      "BetRivers": -106.0
+     }
+    },
+    {
+     "lab": "SF -3.5",
+     "fair": 0.5097,
+     "books": {
+      "Fanatics": -115.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_PIT_CIN",
+   "game": "PIT at CIN",
+   "start": "2026-11-16T01:20Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "CIN ML",
+     "fair": 0.6256,
+     "books": {
+      "DraftKings": -185.0,
+      "FanDuel": -180.0,
+      "BetMGM": -190.0,
+      "Caesars": -182.0,
+      "BetRivers": -195.0,
+      "bet365": -190.0,
+      "Fanatics": -190.0
+     }
+    },
+    {
+     "lab": "PIT ML",
+     "fair": 0.3744,
+     "books": {
+      "DraftKings": 154.0,
+      "FanDuel": 152.0,
+      "BetMGM": 155.0,
+      "Caesars": 154.0,
+      "BetRivers": 155.0,
+      "bet365": 160.0,
+      "Fanatics": 155.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_PIT_CIN",
+   "game": "PIT at CIN",
+   "start": "2026-11-16T01:20Z",
+   "mk": "spread",
+   "line": -3.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "CIN -3.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -107.0,
+      "BetRivers": -113.0,
+      "bet365": -106.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "PIT +3.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -112.0,
+      "BetRivers": -108.0,
+      "bet365": -114.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_PIT_CIN",
+   "game": "PIT at CIN",
+   "start": "2026-11-16T01:20Z",
+   "mk": "total",
+   "line": 49.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "Over 49.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -105.0,
+      "FanDuel": -105.0,
+      "BetMGM": -108.0,
+      "Caesars": -105.0,
+      "bet365": -105.0,
+      "BetRivers": -106.0
+     }
+    },
+    {
+     "lab": "Under 49.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -115.0,
+      "FanDuel": -115.0,
+      "BetMGM": -110.0,
+      "Caesars": -115.0,
+      "bet365": -115.0,
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_PIT_CIN",
+   "game": "PIT at CIN",
+   "start": "2026-11-16T01:20Z",
+   "mk": "total",
+   "line": 49.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "Over 49",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 49",
+     "fair": 0.5,
+     "books": {
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LAC_BAL",
+   "game": "LAC at BAL",
+   "start": "2026-11-17T01:15Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "BAL ML",
+     "fair": 0.6612,
+     "books": {
+      "DraftKings": -225.0,
+      "FanDuel": -220.0,
+      "BetMGM": -220.0,
+      "Caesars": -213.0,
+      "BetRivers": -230.0,
+      "bet365": -230.0,
+      "Fanatics": -220.0
+     }
+    },
+    {
+     "lab": "LAC ML",
+     "fair": 0.3388,
+     "books": {
+      "DraftKings": 185.0,
+      "FanDuel": 184.0,
+      "BetMGM": 180.0,
+      "Caesars": 178.0,
+      "BetRivers": 180.0,
+      "bet365": 185.0,
+      "Fanatics": 180.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LAC_BAL",
+   "game": "LAC at BAL",
+   "start": "2026-11-17T01:15Z",
+   "mk": "spread",
+   "line": -4.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "BAL -4.5",
+     "fair": 0.4957,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -106.0,
+      "BetRivers": -113.0,
+      "bet365": -107.0,
+      "Fanatics": -105.0
+     }
+    },
+    {
+     "lab": "LAC +4.5",
+     "fair": 0.5043,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -114.0,
+      "BetRivers": -109.0,
+      "bet365": -113.0,
+      "Fanatics": -115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LAC_BAL",
+   "game": "LAC at BAL",
+   "start": "2026-11-17T01:15Z",
+   "mk": "total",
+   "line": 38.5,
+   "n_books": 5,
+   "sides": [
+    {
+     "lab": "Over 38.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -115.0,
+      "Caesars": -110.0,
+      "bet365": -111.0,
+      "BetRivers": -114.0
+     }
+    },
+    {
+     "lab": "Under 38.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -110.0,
+      "FanDuel": -105.0,
+      "Caesars": -110.0,
+      "bet365": -109.0,
+      "BetRivers": -106.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_10_LAC_BAL",
+   "game": "LAC at BAL",
+   "start": "2026-11-17T01:15Z",
+   "mk": "total",
+   "line": 39.0,
+   "n_books": 3,
+   "sides": [
+    {
+     "lab": "Over 39",
+     "fair": 0.4978,
+     "books": {
+      "BetMGM": -108.0,
+      "BetRivers": -107.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 39",
+     "fair": 0.5022,
+     "books": {
+      "BetMGM": -110.0,
+      "BetRivers": -114.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "cfb",
+   "game_id": "401856887",
+   "game": "MISS at OU",
+   "start": "2026-11-15T18:00Z",
+   "mk": "ml",
+   "line": 0.0,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "OU ML",
+     "fair": 0.5635,
+     "books": {
+      "DraftKings": -142.0,
+      "FanDuel": -150.0,
+      "BetMGM": -145.0,
+      "Caesars": -137.0,
+      "BetRivers": -136.0,
+      "bet365": -144.0,
+      "Fanatics": -140.0
+     }
+    },
+    {
+     "lab": "MISS ML",
+     "fair": 0.4365,
+     "books": {
+      "DraftKings": 120.0,
+      "FanDuel": 125.0,
+      "BetMGM": 120.0,
+      "Caesars": 116.0,
+      "BetRivers": 110.0,
+      "bet365": 122.0,
+      "Fanatics": 115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "cfb",
+   "game_id": "401856887",
+   "game": "MISS at OU",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -2.5,
+   "n_books": 6,
+   "sides": [
+    {
+     "lab": "OU -2.5",
+     "fair": 0.5108,
+     "books": {
+      "DraftKings": -118.0,
+      "FanDuel": -115.0,
+      "Caesars": -110.0,
+      "BetRivers": -109.0,
+      "bet365": -117.0,
+      "Fanatics": -115.0
+     }
+    },
+    {
+     "lab": "MISS +2.5",
+     "fair": 0.4892,
+     "books": {
+      "DraftKings": -102.0,
+      "FanDuel": -105.0,
+      "Caesars": -109.0,
+      "BetRivers": -113.0,
+      "bet365": -103.0,
+      "Fanatics": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "cfb",
+   "game_id": "401856887",
+   "game": "MISS at OU",
+   "start": "2026-11-15T18:00Z",
+   "mk": "total",
+   "line": 48.5,
+   "n_books": 7,
+   "sides": [
+    {
+     "lab": "Over 48.5",
+     "fair": 0.5022,
+     "books": {
+      "DraftKings": -112.0,
+      "FanDuel": -110.0,
+      "BetMGM": -110.0,
+      "Caesars": -113.0,
+      "BetRivers": -113.0,
+      "bet365": -111.0,
+      "Fanatics": -110.0
+     }
+    },
+    {
+     "lab": "Under 48.5",
+     "fair": 0.4978,
+     "books": {
+      "DraftKings": -108.0,
+      "FanDuel": -110.0,
+      "BetMGM": -108.0,
+      "Caesars": -107.0,
+      "BetRivers": -109.0,
+      "bet365": -109.0,
+      "Fanatics": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "cfb",
+   "game_id": "401856887",
+   "game": "MISS at OU",
+   "start": "2026-11-15T18:00Z",
+   "mk": "spread",
+   "line": -3.0,
+   "n_books": 1,
+   "sides": [
+    {
+     "lab": "OU -3",
+     "fair": 0.4831,
+     "books": {
+      "BetMGM": -108.0
+     }
+    },
+    {
+     "lab": "MISS +3",
+     "fair": 0.5169,
+     "books": {
+      "BetMGM": -125.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401910002",
+   "game": "NY at TOR",
+   "start": "2026-11-18T00:30Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NY -4.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -108.0
+     }
+    },
+    {
+     "lab": "TOR +4.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401910002",
+   "game": "NY at TOR",
+   "start": "2026-11-18T00:30Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "TOR ML",
+     "fair": 0.3717,
+     "books": {
+      "Best price": 158.0
+     }
+    },
+    {
+     "lab": "NY ML",
+     "fair": 0.6283,
+     "books": {
+      "Best price": -190.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401910002",
+   "game": "NY at TOR",
+   "start": "2026-11-18T00:30Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 217.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 217.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909308",
+   "game": "TOR at DET",
+   "start": "2026-11-21T00:30Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 227.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 227.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909308",
+   "game": "TOR at DET",
+   "start": "2026-11-21T00:30Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "TOR ML",
+     "fair": 0.4826,
+     "books": {
+      "Best price": -102.0
+     }
+    },
+    {
+     "lab": "DET ML",
+     "fair": 0.5174,
+     "books": {
+      "Best price": -118.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909308",
+   "game": "TOR at DET",
+   "start": "2026-11-21T00:30Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DET -1.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "TOR +1.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909312",
+   "game": "HOU at DEN",
+   "start": "2026-11-21T03:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 227.5",
+     "fair": 0.4989,
+     "books": {
+      "Best price": -105.0
+     }
+    },
+    {
+     "lab": "Over 227.5",
+     "fair": 0.5011,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909312",
+   "game": "HOU at DEN",
+   "start": "2026-11-21T03:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DEN -3.5",
+     "fair": 0.4957,
+     "books": {
+      "Best price": -105.0
+     }
+    },
+    {
+     "lab": "HOU +3.5",
+     "fair": 0.5043,
+     "books": {
+      "Best price": -112.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nba",
+   "game_id": "401909312",
+   "game": "HOU at DEN",
+   "start": "2026-11-21T03:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DEN ML",
+     "fair": 0.5685,
+     "books": {
+      "Best price": -146.0
+     }
+    },
+    {
+     "lab": "HOU ML",
+     "fair": 0.4315,
+     "books": {
+      "Best price": 122.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020331",
+   "game": "MTL at NYR",
+   "start": "2026-11-17T00:30:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 6.5",
+     "fair": 0.4882,
+     "books": {
+      "Best price": -105.0
+     }
+    },
+    {
+     "lab": "Over 6.5",
+     "fair": 0.5118,
+     "books": {
+      "Best price": -116.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020331",
+   "game": "MTL at NYR",
+   "start": "2026-11-17T00:30:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NYR ML",
+     "fair": 0.5217,
+     "books": {
+      "Best price": -120.0
+     }
+    },
+    {
+     "lab": "MTL ML",
+     "fair": 0.4783,
+     "books": {
+      "Best price": -100.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020331",
+   "game": "MTL at NYR",
+   "start": "2026-11-17T00:30:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NYR -1.5",
+     "fair": 0.3081,
+     "books": {
+      "Best price": 210.0
+     }
+    },
+    {
+     "lab": "MTL +1.5",
+     "fair": 0.6919,
+     "books": {
+      "Best price": -263.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020332",
+   "game": "VAN at UTA",
+   "start": "2026-11-17T02:30:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "UTA ML",
+     "fair": 0.6766,
+     "books": {
+      "Best price": -244.0
+     }
+    },
+    {
+     "lab": "VAN ML",
+     "fair": 0.3234,
+     "books": {
+      "Best price": 195.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020332",
+   "game": "VAN at UTA",
+   "start": "2026-11-17T02:30:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 6.5",
+     "fair": 0.5325,
+     "books": {
+      "Best price": -125.0
+     }
+    },
+    {
+     "lab": "Under 6.5",
+     "fair": 0.4675,
+     "books": {
+      "Best price": 105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nhl",
+   "game_id": "2026020332",
+   "game": "VAN at UTA",
+   "start": "2026-11-17T02:30:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "VAN +1.5",
+     "fair": 0.5325,
+     "books": {
+      "Best price": -125.0
+     }
+    },
+    {
+     "lab": "UTA -1.5",
+     "fair": 0.4675,
+     "books": {
+      "Best price": 105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401934356",
+   "game": "Alik Lorenz vs Diyar Nurgozhay",
+   "start": "2026-11-21T15:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Diyar Nurgozhay ML",
+     "fair": 0.7067,
+     "books": {
+      "Best price": -260.0
+     }
+    },
+    {
+     "lab": "Alik Lorenz ML",
+     "fair": 0.2933,
+     "books": {
+      "Best price": 220.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401934355",
+   "game": "Dom Mar Fan vs Nikolas Motta",
+   "start": "2026-11-21T15:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Dom Mar Fan ML",
+     "fair": 0.59,
+     "books": {
+      "Best price": -155.0
+     }
+    },
+    {
+     "lab": "Nikolas Motta ML",
+     "fair": 0.41,
+     "books": {
+      "Best price": 136.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927853",
+   "game": "Tahir Abdullayev vs Jake Matthews",
+   "start": "2026-11-21T15:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Jake Matthews ML",
+     "fair": 0.6127,
+     "books": {
+      "Best price": -163.0
+     }
+    },
+    {
+     "lab": "Tahir Abdullayev ML",
+     "fair": 0.3873,
+     "books": {
+      "Best price": 139.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927856",
+   "game": "Alessandro Costa vs Amir Albazi",
+   "start": "2026-11-21T15:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Alessandro Costa ML",
+     "fair": 0.5573,
+     "books": {
+      "Best price": -130.0
+     }
+    },
+    {
+     "lab": "Amir Albazi ML",
+     "fair": 0.4427,
+     "books": {
+      "Best price": 115.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927852",
+   "game": "Tallison Teixeira vs Shamil Gaziev",
+   "start": "2026-11-21T15:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Shamil Gaziev ML",
+     "fair": 0.662,
+     "books": {
+      "Best price": -200.0
+     }
+    },
+    {
+     "lab": "Tallison Teixeira ML",
+     "fair": 0.338,
+     "books": {
+      "Best price": 180.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927854",
+   "game": "Santiago Luna vs Aleksandre Topuria",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Santiago Luna ML",
+     "fair": 0.3103,
+     "books": {
+      "Best price": 201.0
+     }
+    },
+    {
+     "lab": "Aleksandre Topuria ML",
+     "fair": 0.6897,
+     "books": {
+      "Best price": -240.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927851",
+   "game": "Ikram Aliskerov vs Jared Cannonier",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Ikram Aliskerov ML",
+     "fair": 0.7618,
+     "books": {
+      "Best price": -335.0
+     }
+    },
+    {
+     "lab": "Jared Cannonier ML",
+     "fair": 0.2382,
+     "books": {
+      "Best price": 290.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927855",
+   "game": "Asu Almabayev vs Kyoji Horiguchi",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Asu Almabayev ML",
+     "fair": 0.3527,
+     "books": {
+      "Best price": 169.0
+     }
+    },
+    {
+     "lab": "Kyoji Horiguchi ML",
+     "fair": 0.6473,
+     "books": {
+      "Best price": -195.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401922278",
+   "game": "Brian Ortega vs Dan Hooker",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Brian Ortega ML",
+     "fair": 0.3992,
+     "books": {
+      "Best price": 136.0
+     }
+    },
+    {
+     "lab": "Dan Hooker ML",
+     "fair": 0.6008,
+     "books": {
+      "Best price": -160.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401927850",
+   "game": "Kevin Vallejos vs Aljamain Sterling",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Kevin Vallejos ML",
+     "fair": 0.5419,
+     "books": {
+      "Best price": -125.0
+     }
+    },
+    {
+     "lab": "Aljamain Sterling ML",
+     "fair": 0.4581,
+     "books": {
+      "Best price": 112.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "ufc",
+   "game_id": "ufc_600061665_401922277",
+   "game": "Navajo Stirling vs Ji\u0159\u00ed Proch\u00e1zka",
+   "start": "2026-11-21T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Navajo Stirling ML",
+     "fair": 0.5729,
+     "books": {
+      "Best price": -138.0
+     }
+    },
+    {
+     "lab": "Ji\u0159\u00ed Proch\u00e1zka ML",
+     "fair": 0.4271,
+     "books": {
+      "Best price": 132.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_IND_HOU",
+   "game": "IND at HOU",
+   "start": "2026-11-20T01:15Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "IND ML",
+     "fair": 0.2133,
+     "books": {
+      "FanDuel": 410.0
+     }
+    },
+    {
+     "lab": "HOU ML",
+     "fair": 0.7867,
+     "books": {
+      "Best price": -455.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_IND_HOU",
+   "game": "IND at HOU",
+   "start": "2026-11-20T01:15Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "HOU -10",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -106.0
+     }
+    },
+    {
+     "lab": "IND +10",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -107.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_IND_HOU",
+   "game": "IND at HOU",
+   "start": "2026-11-20T01:15Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 44.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 44.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_ARI_KC",
+   "game": "ARI at KC",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "ARI ML",
+     "fair": 0.1323,
+     "books": {
+      "FanDuel": 750.0
+     }
+    },
+    {
+     "lab": "KC ML",
+     "fair": 0.8677,
+     "books": {
+      "Best price": -950.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_ARI_KC",
+   "game": "ARI at KC",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 42.5",
+     "fair": 0.5108,
+     "books": {
+      "Best price": -115.0
+     }
+    },
+    {
+     "lab": "Over 42.5",
+     "fair": 0.4892,
+     "books": {
+      "Best price": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_ARI_KC",
+   "game": "ARI at KC",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "KC -14",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "ARI +14",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_BAL_CAR",
+   "game": "BAL at CAR",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "BAL ML",
+     "fair": 0.4739,
+     "books": {
+      "FanDuel": 108.0
+     }
+    },
+    {
+     "lab": "CAR ML",
+     "fair": 0.5261,
+     "books": {
+      "Caesars": -121.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_BAL_CAR",
+   "game": "BAL at CAR",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 44.5",
+     "fair": 0.5108,
+     "books": {
+      "FanDuel": -110.0
+     }
+    },
+    {
+     "lab": "Under 44.5",
+     "fair": 0.4892,
+     "books": {
+      "Best price": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_BAL_CAR",
+   "game": "BAL at CAR",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "CAR -1.5",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -109.0
+     }
+    },
+    {
+     "lab": "BAL +1.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_JAX_NYG",
+   "game": "JAX at NYG",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 44.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -105.0
+     }
+    },
+    {
+     "lab": "Over 44.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_JAX_NYG",
+   "game": "JAX at NYG",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NYG +6",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -107.0
+     }
+    },
+    {
+     "lab": "JAX -6",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_JAX_NYG",
+   "game": "JAX at NYG",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "JAX ML",
+     "fair": 0.6958,
+     "books": {
+      "Best price": -265.0
+     }
+    },
+    {
+     "lab": "NYG ML",
+     "fair": 0.3042,
+     "books": {
+      "Best price": 215.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIA_BUF",
+   "game": "MIA at BUF",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "MIA ML",
+     "fair": 0.0917,
+     "books": {
+      "bet365": 1000.0
+     }
+    },
+    {
+     "lab": "BUF ML",
+     "fair": 0.9083,
+     "books": {
+      "Best price": -1650.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIA_BUF",
+   "game": "MIA at BUF",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 46.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -105.0
+     }
+    },
+    {
+     "lab": "Under 46.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIA_BUF",
+   "game": "MIA at BUF",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "BUF -16.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    },
+    {
+     "lab": "MIA +16.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NO_CHI",
+   "game": "NO at CHI",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NO ML",
+     "fair": 0.2086,
+     "books": {
+      "FanDuel": 430.0
+     }
+    },
+    {
+     "lab": "CHI ML",
+     "fair": 0.7914,
+     "books": {
+      "Best price": -470.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NO_CHI",
+   "game": "NO at CHI",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NO +9.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -105.0
+     }
+    },
+    {
+     "lab": "CHI -9.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NO_CHI",
+   "game": "NO at CHI",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 48.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 48.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TB_DET",
+   "game": "TB at DET",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DET -3.5",
+     "fair": 0.4892,
+     "books": {
+      "FanDuel": -100.0
+     }
+    },
+    {
+     "lab": "TB +3.5",
+     "fair": 0.5108,
+     "books": {
+      "BetRivers": -113.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TB_DET",
+   "game": "TB at DET",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "TB ML",
+     "fair": 0.3836,
+     "books": {
+      "BetRivers": 155.0
+     }
+    },
+    {
+     "lab": "DET ML",
+     "fair": 0.6164,
+     "books": {
+      "FanDuel": -172.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TB_DET",
+   "game": "TB at DET",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 47.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 47.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TEN_DAL",
+   "game": "TEN at DAL",
+   "start": "2026-11-22T18:00Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "TEN ML",
+     "fair": 0.2285,
+     "books": {
+      "FanDuel": 360.0
+     }
+    },
+    {
+     "lab": "DAL ML",
+     "fair": 0.7715,
+     "books": {
+      "Best price": -410.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TEN_DAL",
+   "game": "TEN at DAL",
+   "start": "2026-11-22T18:00Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 51.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -106.0
+     }
+    },
+    {
+     "lab": "Under 51.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_TEN_DAL",
+   "game": "TEN at DAL",
+   "start": "2026-11-22T18:00Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DAL -7.5",
+     "fair": 0.5108,
+     "books": {
+      "BetRivers": -113.0
+     }
+    },
+    {
+     "lab": "TEN +7.5",
+     "fair": 0.4892,
+     "books": {
+      "Best price": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NYJ_LAC",
+   "game": "NYJ at LAC",
+   "start": "2026-11-22T21:05Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "NYJ ML",
+     "fair": 0.4675,
+     "books": {
+      "FanDuel": 108.0
+     }
+    },
+    {
+     "lab": "LAC ML",
+     "fair": 0.5325,
+     "books": {
+      "BetRivers": -122.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NYJ_LAC",
+   "game": "NYJ at LAC",
+   "start": "2026-11-22T21:05Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 42.5",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -107.0
+     }
+    },
+    {
+     "lab": "Over 42.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_NYJ_LAC",
+   "game": "NYJ at LAC",
+   "start": "2026-11-22T21:05Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "LAC -1.5",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -109.0
+     }
+    },
+    {
+     "lab": "NYJ +1.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_LV_DEN",
+   "game": "LV at DEN",
+   "start": "2026-11-22T21:25Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DEN ML",
+     "fair": 0.7867,
+     "books": {
+      "BetRivers": -385.0
+     }
+    },
+    {
+     "lab": "LV ML",
+     "fair": 0.2133,
+     "books": {
+      "bet365": 355.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_LV_DEN",
+   "game": "LV at DEN",
+   "start": "2026-11-22T21:25Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "DEN -8.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    },
+    {
+     "lab": "LV +8.5",
+     "fair": 0.5,
+     "books": {
+      "Caesars": -109.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_LV_DEN",
+   "game": "LV at DEN",
+   "start": "2026-11-22T21:25Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 41.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    },
+    {
+     "lab": "Under 41.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_PIT_PHI",
+   "game": "PIT at PHI",
+   "start": "2026-11-22T21:25Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "PHI ML",
+     "fair": 0.3631,
+     "books": {
+      "FanDuel": 172.0
+     }
+    },
+    {
+     "lab": "PIT ML",
+     "fair": 0.6369,
+     "books": {
+      "Best price": -198.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_PIT_PHI",
+   "game": "PIT at PHI",
+   "start": "2026-11-22T21:25Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Under 38.5",
+     "fair": 0.5,
+     "books": {
+      "FanDuel": -105.0
+     }
+    },
+    {
+     "lab": "Over 38.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_PIT_PHI",
+   "game": "PIT at PHI",
+   "start": "2026-11-22T21:25Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "PHI +4.5",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -108.0
+     }
+    },
+    {
+     "lab": "PIT -4.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIN_SF",
+   "game": "MIN at SF",
+   "start": "2026-11-23T01:20Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "MIN ML",
+     "fair": 0.3553,
+     "books": {
+      "FanDuel": 188.0
+     }
+    },
+    {
+     "lab": "SF ML",
+     "fair": 0.6447,
+     "books": {
+      "Best price": -205.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIN_SF",
+   "game": "MIN at SF",
+   "start": "2026-11-23T01:20Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 45.5",
+     "fair": 0.5108,
+     "books": {
+      "BetRivers": -109.0
+     }
+    },
+    {
+     "lab": "Under 45.5",
+     "fair": 0.4892,
+     "books": {
+      "Best price": -105.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_MIN_SF",
+   "game": "MIN at SF",
+   "start": "2026-11-23T01:20Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "MIN +3.5",
+     "fair": 0.4892,
+     "books": {
+      "BetMGM": 100.0
+     }
+    },
+    {
+     "lab": "SF -3.5",
+     "fair": 0.5108,
+     "books": {
+      "BetRivers": -114.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_CIN_WAS",
+   "game": "CIN at WAS",
+   "start": "2026-11-24T01:15Z",
+   "mk": "ml",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "WAS ML",
+     "fair": 0.3553,
+     "books": {
+      "FanDuel": 176.0
+     }
+    },
+    {
+     "lab": "CIN ML",
+     "fair": 0.6447,
+     "books": {
+      "Best price": -205.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_CIN_WAS",
+   "game": "CIN at WAS",
+   "start": "2026-11-24T01:15Z",
+   "mk": "total",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "Over 51.5",
+     "fair": 0.5,
+     "books": {
+      "BetRivers": -108.0
+     }
+    },
+    {
+     "lab": "Under 51.5",
+     "fair": 0.5,
+     "books": {
+      "Best price": -110.0
+     }
+    }
+   ]
+  },
+  {
+   "sport": "nfl",
+   "game_id": "2026_11_CIN_WAS",
+   "game": "CIN at WAS",
+   "start": "2026-11-24T01:15Z",
+   "mk": "spread",
+   "line": null,
+   "n_books": 1,
+   "from": "bets.json",
+   "sides": [
+    {
+     "lab": "CIN -3.5",
+     "fair": 0.5108,
+     "books": {
+      "Best price": -115.0
+     }
+    },
+    {
+     "lab": "WAS +3.5",
+     "fair": 0.4892,
+     "books": {
+      "Best price": -105.0
+     }
+    }
+   ]
+  }
+ ],
+ "bonus_best": [
+  {
+   "sport": "nfl",
+   "game": "LV at DEN",
+   "start": "2026-11-22T21:25Z",
+   "keep_pct": 73.2,
+   "bonus": {
+    "lab": "LV ML",
+    "book": "bet365",
+    "price": 355.0
+   },
+   "cash": {
+    "lab": "DEN ML",
+    "book": "BetRivers",
+    "price": -385.0,
+    "per_100_bonus": 281.8
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "keep_pct": 72.41,
+   "bonus": {
+    "lab": "TEN ML",
+    "book": "DraftKings",
+    "price": 525.0
+   },
+   "cash": {
+    "lab": "JAX ML",
+    "book": "Caesars",
+    "price": -625.0,
+    "per_100_bonus": 452.59
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "keep_pct": 70.33,
+   "bonus": {
+    "lab": "WSH ML",
+    "book": "FanDuel",
+    "price": 320.0
+   },
+   "cash": {
+    "lab": "HOU ML",
+    "book": "Caesars",
+    "price": -355.0,
+    "per_100_bonus": 249.67
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 69.37,
+   "bonus": {
+    "lab": "SAC ML",
+    "book": "FanDuel",
+    "price": 385.0
+   },
+   "cash": {
+    "lab": "OKC ML",
+    "book": "BetRivers",
+    "price": -455.0,
+    "per_100_bonus": 315.63
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "keep_pct": 68.97,
+   "bonus": {
+    "lab": "TEN ML",
+    "book": "FanDuel",
+    "price": 500.0
+   },
+   "cash": {
+    "lab": "JAX ML",
+    "book": "Caesars",
+    "price": -625.0,
+    "per_100_bonus": 431.03
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "JAX at TEN",
+   "start": "2026-11-15T18:00Z",
+   "keep_pct": 68.97,
+   "bonus": {
+    "lab": "TEN ML",
+    "book": "BetMGM",
+    "price": 500.0
+   },
+   "cash": {
+    "lab": "JAX ML",
+    "book": "Caesars",
+    "price": -625.0,
+    "per_100_bonus": 431.03
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 68.0,
+   "bonus": {
+    "lab": "VAN ML",
+    "book": "bet365",
+    "price": 340.0
+   },
+   "cash": {
+    "lab": "VGK ML",
+    "book": "BetMGM",
+    "price": -400.0,
+    "per_100_bonus": 272.0
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 67.57,
+   "bonus": {
+    "lab": "SAC ML",
+    "book": "BetMGM",
+    "price": 375.0
+   },
+   "cash": {
+    "lab": "OKC ML",
+    "book": "BetRivers",
+    "price": -455.0,
+    "per_100_bonus": 307.43
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "keep_pct": 67.24,
+   "bonus": {
+    "lab": "ARI ML",
+    "book": "bet365",
+    "price": 390.0
+   },
+   "cash": {
+    "lab": "LA ML",
+    "book": "Caesars",
+    "price": -480.0,
+    "per_100_bonus": 322.76
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 67.0,
+   "bonus": {
+    "lab": "VAN ML",
+    "book": "BetRivers",
+    "price": 335.0
+   },
+   "cash": {
+    "lab": "VGK ML",
+    "book": "BetMGM",
+    "price": -400.0,
+    "per_100_bonus": 268.0
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "keep_pct": 65.93,
+   "bonus": {
+    "lab": "WSH ML",
+    "book": "BetMGM",
+    "price": 300.0
+   },
+   "cash": {
+    "lab": "HOU ML",
+    "book": "Caesars",
+    "price": -355.0,
+    "per_100_bonus": 234.07
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 65.0,
+   "bonus": {
+    "lab": "VAN ML",
+    "book": "Fanatics",
+    "price": 325.0
+   },
+   "cash": {
+    "lab": "VGK ML",
+    "book": "BetMGM",
+    "price": -400.0,
+    "per_100_bonus": 260.0
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 64.86,
+   "bonus": {
+    "lab": "SAC ML",
+    "book": "DraftKings",
+    "price": 360.0
+   },
+   "cash": {
+    "lab": "OKC ML",
+    "book": "BetRivers",
+    "price": -455.0,
+    "per_100_bonus": 295.14
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "OKC at SAC",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 64.86,
+   "bonus": {
+    "lab": "SAC ML",
+    "book": "Caesars",
+    "price": 360.0
+   },
+   "cash": {
+    "lab": "OKC ML",
+    "book": "BetRivers",
+    "price": -455.0,
+    "per_100_bonus": 295.14
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 64.0,
+   "bonus": {
+    "lab": "VAN ML",
+    "book": "DraftKings",
+    "price": 320.0
+   },
+   "cash": {
+    "lab": "VGK ML",
+    "book": "BetMGM",
+    "price": -400.0,
+    "per_100_bonus": 256.0
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "VAN at VGK",
+   "start": "2026-11-16T02:00Z",
+   "keep_pct": 64.0,
+   "bonus": {
+    "lab": "VAN ML",
+    "book": "Caesars",
+    "price": 320.0
+   },
+   "cash": {
+    "lab": "VGK ML",
+    "book": "BetMGM",
+    "price": -400.0,
+    "per_100_bonus": 256.0
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "keep_pct": 63.79,
+   "bonus": {
+    "lab": "ARI ML",
+    "book": "Caesars",
+    "price": 370.0
+   },
+   "cash": {
+    "lab": "LA ML",
+    "book": "Caesars",
+    "price": -480.0,
+    "per_100_bonus": 306.21
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "LA at ARI",
+   "start": "2026-11-15T21:05Z",
+   "keep_pct": 63.79,
+   "bonus": {
+    "lab": "ARI ML",
+    "book": "Fanatics",
+    "price": 370.0
+   },
+   "cash": {
+    "lab": "LA ML",
+    "book": "Caesars",
+    "price": -480.0,
+    "per_100_bonus": 306.21
+   }
+  },
+  {
+   "sport": "nba",
+   "game": "HOU at WSH",
+   "start": "2026-11-16T00:00Z",
+   "keep_pct": 63.74,
+   "bonus": {
+    "lab": "WSH ML",
+    "book": "Fanatics",
+    "price": 290.0
+   },
+   "cash": {
+    "lab": "HOU ML",
+    "book": "Caesars",
+    "price": -355.0,
+    "per_100_bonus": 226.26
+   }
+  },
+  {
+   "sport": "nfl",
+   "game": "BUF at NYJ",
+   "start": "2026-11-15T18:00Z",
+   "keep_pct": 63.64,
+   "bonus": {
+    "lab": "NYJ ML",
+    "book": "BetRivers",
+    "price": 350.0
+   },
+   "cash": {
+    "lab": "BUF ML",
+    "book": "BetMGM",
+    "price": -450.0,
+    "per_100_bonus": 286.36
+   }
+  },
+  {
+   "sport": "nhl",
+   "game": "FLA at DAL",
+   "start": "2026-11-16T01:00Z",
+   "keep_pct": 62.9,
+   "bonus": {
+    "lab": "DAL -1.5",
+    "book": "BetRivers",
+    "price": 195.0
+   },
+   "cash": {
+    "lab": "FLA +1.5",
+    "book": "BetMGM",
+    "price": -210.0,
+    "per_100_bonus": 132.1
+   }
+  }
+ ],
+ "errors": [],
+ "rules": {
+  "arb": "same game, market and line: the best price on each side at two different US books adds to under 100% implied; stake each side in proportion to its implied chance and both outcomes return the same",
+  "middle": "two numbers on one game at two books; both bets win if the result lands between them. Chance from past final scores (NFL / college: games with a similar line; NBA / WNBA: normal; NHL: Poisson). Kept when the average result is 0 or better.",
+  "bonus": "a bonus bet returns only its profit: bonus B at decimal price dX, cash B(dX-1)/dY on the other side keeps B(dX-1)(dY-1)/dY whatever happens",
+  "fair": "median of the books' no-vig chances at that line (multiplicative de-vig)",
+  "bettable": [
+   "BetMGM",
+   "BetRivers",
+   "Caesars",
+   "DraftKings",
+   "FanDuel",
+   "Fanatics",
+   "bet365"
+  ],
+  "clean": "games not started; 0-15% vig per book; books more than 8 implied points from the other books' median dropped; no consensus, 'Open', in-play or alternate lines"
+ },
+ "seconds": 3.8
+}
